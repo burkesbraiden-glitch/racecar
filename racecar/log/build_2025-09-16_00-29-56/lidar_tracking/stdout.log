@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_tracking[0m
+[100%] Built target lidar_tracking
+-- Install configuration: ""
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/lib/lidar_tracking/lidar_tracking
+-- Set runtime path of "/home/davinci-mini/racecar/install/lidar_tracking/lib/lidar_tracking/lidar_tracking" to ""
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/launch
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/launch/lidar_tracking.launch.py
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/config
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/config/params.yaml
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/ament_index/resource_index/package_run_dependencies/lidar_tracking
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/ament_index/resource_index/parent_prefix_path/lidar_tracking
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/environment/ament_prefix_path.sh
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/environment/ament_prefix_path.dsv
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/environment/path.sh
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/environment/path.dsv
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/local_setup.bash
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/local_setup.sh
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/local_setup.zsh
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/local_setup.dsv
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/package.dsv
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/ament_index/resource_index/packages/lidar_tracking
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/cmake/lidar_trackingConfig.cmake
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/cmake/lidar_trackingConfig-version.cmake
+-- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/package.xml

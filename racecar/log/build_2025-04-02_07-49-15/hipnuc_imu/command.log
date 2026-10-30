@@ -1,0 +1,3 @@
+Invoking command in '/home/davinci-mini/racecar/build/hipnuc_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/hipnuc_imu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/hipnuc_imu
+Invoked command in '/home/davinci-mini/racecar/build/hipnuc_imu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/hipnuc_imu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/hipnuc_imu
+Invoking command in '/home/davinci-mini/racecar/build/hipnuc_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/hipnuc_imu -- -j3 -l3

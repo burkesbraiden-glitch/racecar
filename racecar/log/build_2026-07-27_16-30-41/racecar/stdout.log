@@ -1,0 +1,10 @@
+[ 25%] Built target laser_2d_new
+[ 50%] Built target scan_node
+[ 75%] Built target car_control_all
+[ 75%] Built target ament_cmake_python_symlink_racecar
+[100%] Built target my_car_control_new
+running egg_info
+writing racecar.egg-info/PKG-INFO
+writing dependency_links to racecar.egg-info/dependency_links.txt
+writing top-level names to racecar.egg-info/top_level.txt
+reading manifest file 'racecar.egg-info/SOURCES.txt'

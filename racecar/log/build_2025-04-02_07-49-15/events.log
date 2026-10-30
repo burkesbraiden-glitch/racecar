@@ -1,0 +1,1569 @@
+[0.000000] (-) TimerEvent: {}
+[0.000483] (encoder) JobQueued: {'identifier': 'encoder', 'dependencies': OrderedDict()}
+[0.000604] (hipnuc_imu) JobQueued: {'identifier': 'hipnuc_imu', 'dependencies': OrderedDict()}
+[0.000681] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.000751] (nav2_waypoint_cycle) JobQueued: {'identifier': 'nav2_waypoint_cycle', 'dependencies': OrderedDict()}
+[0.000816] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.000879] (racecar) JobQueued: {'identifier': 'racecar', 'dependencies': OrderedDict()}
+[0.000942] (racecar_driver) JobQueued: {'identifier': 'racecar_driver', 'dependencies': OrderedDict()}
+[0.001004] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.001064] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/davinci-mini/racecar/install/lslidar_msgs')])}
+[0.001139] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/home/davinci-mini/racecar/install/openslam_gmapping')])}
+[0.001209] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.010426] (openslam_gmapping) JobStarted: {'identifier': 'openslam_gmapping'}
+[0.027666] (encoder) JobStarted: {'identifier': 'encoder'}
+[0.063048] (hipnuc_imu) JobStarted: {'identifier': 'hipnuc_imu'}
+[0.083364] (nav2_waypoint_cycle) JobStarted: {'identifier': 'nav2_waypoint_cycle'}
+[0.083878] (-) TimerEvent: {}
+[0.096921] (racecar) JobStarted: {'identifier': 'racecar'}
+[0.106691] (racecar_driver) JobStarted: {'identifier': 'racecar_driver'}
+[0.116187] (serial) JobStarted: {'identifier': 'serial'}
+[0.134611] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.136002] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/davinci-mini/racecar/src/lslidar_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/lslidar_msgs'], 'cwd': '/home/davinci-mini/racecar/build/lslidar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/lslidar_msgs'), ('SSH_CONNECTION', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.142767] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'cmake'}
+[0.144097] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '/home/davinci-mini/racecar/src/openslam_gmapping', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/openslam_gmapping'], 'cwd': '/home/davinci-mini/racecar/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/openslam_gmapping'), ('SSH_CONNECTION', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.184068] (-) TimerEvent: {}
+[0.284821] (-) TimerEvent: {}
+[0.385591] (-) TimerEvent: {}
+[0.486508] (-) TimerEvent: {}
+[0.588377] (-) TimerEvent: {}
+[0.689213] (-) TimerEvent: {}
+[0.789980] (-) TimerEvent: {}
+[0.890840] (-) TimerEvent: {}
+[0.991734] (-) TimerEvent: {}
+[1.092541] (-) TimerEvent: {}
+[1.193405] (-) TimerEvent: {}
+[1.295357] (hipnuc_imu) JobProgress: {'identifier': 'hipnuc_imu', 'progress': 'cmake'}
+[1.295519] (-) TimerEvent: {}
+[1.295978] (hipnuc_imu) Command: {'cmd': ['/usr/bin/cmake', '/home/davinci-mini/racecar/src/hipnuc_imu', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/hipnuc_imu'], 'cwd': '/home/davinci-mini/racecar/build/hipnuc_imu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/hipnuc_imu'), ('SSH_CONNECTION', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.395723] (-) TimerEvent: {}
+[1.496523] (-) TimerEvent: {}
+[1.597292] (-) TimerEvent: {}
+[1.698103] (-) TimerEvent: {}
+[1.798878] (-) TimerEvent: {}
+[1.899675] (-) TimerEvent: {}
+[2.000506] (-) TimerEvent: {}
+[2.101373] (-) TimerEvent: {}
+[2.202190] (-) TimerEvent: {}
+[2.302989] (-) TimerEvent: {}
+[2.403775] (-) TimerEvent: {}
+[2.504553] (-) TimerEvent: {}
+[2.605413] (-) TimerEvent: {}
+[2.706358] (-) TimerEvent: {}
+[2.756219] (racecar) JobProgress: {'identifier': 'racecar', 'progress': 'cmake'}
+[2.759603] (racecar) Command: {'cmd': ['/usr/bin/cmake', '/home/davinci-mini/racecar/src/racecar', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/racecar'], 'cwd': '/home/davinci-mini/racecar/build/racecar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/racecar'), ('SSH_CONNECTION', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.782962] (racecar_driver) JobProgress: {'identifier': 'racecar_driver', 'progress': 'cmake'}
+[2.783196] (racecar_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/davinci-mini/racecar/src/racecar_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/racecar_driver'], 'cwd': '/home/davinci-mini/racecar/build/racecar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/racecar_driver'), ('SSH_CONNECTION', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.794531] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[2.794722] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/davinci-mini/racecar/src/serial-foxy', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/serial'], 'cwd': '/home/davinci-mini/racecar/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/serial'), ('SSH_CONNECTION', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.806891] (-) TimerEvent: {}
+[2.827678] (lslidar_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.828297] (lslidar_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.828602] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.828865] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.829127] (lslidar_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.829379] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.829622] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.829861] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.830337] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.830599] (lslidar_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.830842] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.831077] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.831309] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.841194] (openslam_gmapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.841822] (openslam_gmapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.842456] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.842751] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.843009] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.843290] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.843538] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.843784] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.844026] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.844266] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.844503] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.844736] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.844964] (openslam_gmapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.856938] (hipnuc_imu) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.857546] (hipnuc_imu) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.857839] (hipnuc_imu) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.858371] (hipnuc_imu) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.858651] (hipnuc_imu) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.858897] (hipnuc_imu) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.859136] (hipnuc_imu) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.859372] (hipnuc_imu) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.907340] (-) TimerEvent: {}
+[3.008134] (-) TimerEvent: {}
+[3.082370] (openslam_gmapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.108314] (-) TimerEvent: {}
+[3.209169] (-) TimerEvent: {}
+[3.280621] (lslidar_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.309364] (-) TimerEvent: {}
+[3.385849] (racecar) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[3.409531] (-) TimerEvent: {}
+[3.482538] (hipnuc_imu) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.509700] (-) TimerEvent: {}
+[3.563133] (hipnuc_imu) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.564937] (hipnuc_imu) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.567633] (hipnuc_imu) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.585316] (hipnuc_imu) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.609866] (-) TimerEvent: {}
+[3.710970] (-) TimerEvent: {}
+[3.811759] (-) TimerEvent: {}
+[3.912554] (-) TimerEvent: {}
+[3.934387] (openslam_gmapping) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.012729] (-) TimerEvent: {}
+[4.042852] (racecar) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[4.112896] (-) TimerEvent: {}
+[4.130145] (racecar) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.210158] (lslidar_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.213027] (-) TimerEvent: {}
+[4.313750] (-) TimerEvent: {}
+[4.377840] (lslidar_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.413924] (-) TimerEvent: {}
+[4.515023] (-) TimerEvent: {}
+[4.615813] (-) TimerEvent: {}
+[4.664884] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.689871] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.715995] (-) TimerEvent: {}
+[4.733059] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.807283] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.816168] (-) TimerEvent: {}
+[4.891904] (racecar) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.916345] (-) TimerEvent: {}
+[4.983764] (racecar) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.987322] (racecar) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.995876] (racecar) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.016511] (-) TimerEvent: {}
+[5.029517] (racecar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.116687] (-) TimerEvent: {}
+[5.159014] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.216858] (-) TimerEvent: {}
+[5.286720] (openslam_gmapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.317036] (-) TimerEvent: {}
+[5.417847] (-) TimerEvent: {}
+[5.496527] (openslam_gmapping) StdoutLine: {'line': b'-- Generating done\n'}
+[5.518016] (-) TimerEvent: {}
+[5.521752] (lslidar_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.547648] (openslam_gmapping) StdoutLine: {'line': b'-- Build files have been written to: /home/davinci-mini/racecar/build/openslam_gmapping\n'}
+[5.600552] (racecar_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[5.601128] (racecar_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[5.601424] (racecar_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.601839] (racecar_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.602199] (racecar_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.602489] (racecar_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.602744] (racecar_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.602989] (racecar_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.613480] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[5.614721] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'build'}
+[5.614830] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davinci-mini/racecar/build/openslam_gmapping', '--', '-j3', '-l3'], 'cwd': '/home/davinci-mini/racecar/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/openslam_gmapping'), ('SSH_CONNECTION', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.618168] (-) TimerEvent: {}
+[5.650558] (hipnuc_imu) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.718345] (-) TimerEvent: {}
+[5.819143] (-) TimerEvent: {}
+[5.838830] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.919321] (-) TimerEvent: {}
+[5.981099] (racecar_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.007408] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.019487] (-) TimerEvent: {}
+[6.064891] (racecar_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.065761] (racecar_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.079256] (racecar_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.106519] (racecar_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.119667] (-) TimerEvent: {}
+[6.184307] (racecar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.219834] (-) TimerEvent: {}
+[6.320625] (-) TimerEvent: {}
+[6.328157] (racecar) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.329058] (racecar) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.351699] (racecar) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.380753] (racecar) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.420796] (-) TimerEvent: {}
+[6.521624] (-) TimerEvent: {}
+[6.622518] (-) TimerEvent: {}
+[6.642503] (hipnuc_imu) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.722686] (-) TimerEvent: {}
+[6.823482] (-) TimerEvent: {}
+[6.924287] (-) TimerEvent: {}
+[6.980439] (hipnuc_imu) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.024464] (-) TimerEvent: {}
+[7.125291] (-) TimerEvent: {}
+[7.179017] (encoder) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/davinci-mini/racecar/build/encoder/build', '--no-deps', 'symlink_data'], 'cwd': '/home/davinci-mini/racecar/build/encoder', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'davinci-mini', 'SSH_CLIENT': '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/davinci-mini', 'OLDPWD': '/home/davinci-mini', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'davinci-mini', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/davinci-mini/racecar/build/encoder', 'SSH_CONNECTION': '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/davinci-mini/racecar/build/encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.225469] (-) TimerEvent: {}
+[7.326554] (-) TimerEvent: {}
+[7.427356] (-) TimerEvent: {}
+[7.461020] (hipnuc_imu) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.527526] (-) TimerEvent: {}
+[7.530388] (hipnuc_imu) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.627700] (-) TimerEvent: {}
+[7.662633] (hipnuc_imu) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.727900] (-) TimerEvent: {}
+[7.829573] (-) TimerEvent: {}
+[7.846769] (hipnuc_imu) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.929745] (-) TimerEvent: {}
+[8.030821] (-) TimerEvent: {}
+[8.087198] (hipnuc_imu) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.130982] (-) TimerEvent: {}
+[8.231772] (-) TimerEvent: {}
+[8.262350] (racecar) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[8.330984] (nav2_waypoint_cycle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/davinci-mini/racecar/build/nav2_waypoint_cycle/build', '--no-deps', 'symlink_data'], 'cwd': '/home/davinci-mini/racecar/build/nav2_waypoint_cycle', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'davinci-mini', 'SSH_CLIENT': '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/davinci-mini', 'OLDPWD': '/home/davinci-mini', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'davinci-mini', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/davinci-mini/racecar/build/nav2_waypoint_cycle', 'SSH_CONNECTION': '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/davinci-mini/racecar/build/nav2_waypoint_cycle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.333140] (-) TimerEvent: {}
+[8.433809] (-) TimerEvent: {}
+[8.534898] (-) TimerEvent: {}
+[8.582839] (racecar_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[8.635059] (-) TimerEvent: {}
+[8.735901] (-) TimerEvent: {}
+[8.826481] (hipnuc_imu) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.836067] (-) TimerEvent: {}
+[8.847352] (hipnuc_imu) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.936294] (-) TimerEvent: {}
+[9.037107] (-) TimerEvent: {}
+[9.137922] (-) TimerEvent: {}
+[9.197037] (racecar) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.238117] (-) TimerEvent: {}
+[9.338907] (-) TimerEvent: {}
+[9.393068] (racecar) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.439079] (-) TimerEvent: {}
+[9.525314] (racecar_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.539250] (-) TimerEvent: {}
+[9.650432] (-) TimerEvent: {}
+[9.734947] (racecar_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.750620] (-) TimerEvent: {}
+[9.821001] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.851135] (-) TimerEvent: {}
+[9.897855] (racecar) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.914724] (racecar) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.926340] (hipnuc_imu) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.954349] (-) TimerEvent: {}
+[10.055153] (-) TimerEvent: {}
+[10.071747] (racecar) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.155321] (-) TimerEvent: {}
+[10.182893] (hipnuc_imu) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.239842] (racecar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.246288] (racecar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.255485] (-) TimerEvent: {}
+[10.289804] (racecar_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.333893] (racecar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.355648] (-) TimerEvent: {}
+[10.392574] (racecar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.455823] (-) TimerEvent: {}
+[10.465627] (racecar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.555987] (-) TimerEvent: {}
+[10.563473] (racecar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.649283] (hipnuc_imu) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.656135] (-) TimerEvent: {}
+[10.756902] (-) TimerEvent: {}
+[10.763069] (hipnuc_imu) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.857084] (-) TimerEvent: {}
+[10.947500] (racecar_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.958157] (-) TimerEvent: {}
+[10.964292] (racecar_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.012968] (racecar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.029013] (racecar) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.058326] (-) TimerEvent: {}
+[11.159113] (-) TimerEvent: {}
+[11.259914] (-) TimerEvent: {}
+[11.362220] (-) TimerEvent: {}
+[11.463038] (-) TimerEvent: {}
+[11.513228] (hipnuc_imu) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.516598] (hipnuc_imu) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.563206] (-) TimerEvent: {}
+[11.664032] (-) TimerEvent: {}
+[11.705045] (racecar_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.764193] (-) TimerEvent: {}
+[11.864997] (-) TimerEvent: {}
+[11.917861] (racecar) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.942652] (racecar_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.965174] (-) TimerEvent: {}
+[12.066000] (-) TimerEvent: {}
+[12.159587] (hipnuc_imu) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.163269] (hipnuc_imu) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.166288] (-) TimerEvent: {}
+[12.267032] (-) TimerEvent: {}
+[12.294781] (racecar) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.329736] (racecar_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.367196] (-) TimerEvent: {}
+[12.426680] (racecar_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.467375] (-) TimerEvent: {}
+[12.568181] (-) TimerEvent: {}
+[12.668977] (-) TimerEvent: {}
+[12.720222] (racecar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.769146] (-) TimerEvent: {}
+[12.818916] (racecar) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.869315] (-) TimerEvent: {}
+[12.881339] (hipnuc_imu) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[12.969497] (-) TimerEvent: {}
+[13.070552] (-) TimerEvent: {}
+[13.108155] (racecar_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.109321] (racecar_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.170731] (-) TimerEvent: {}
+[13.210452] (hipnuc_imu) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[13.270896] (-) TimerEvent: {}
+[13.371720] (-) TimerEvent: {}
+[13.427592] (hipnuc_imu) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.471901] (-) TimerEvent: {}
+[13.572710] (-) TimerEvent: {}
+[13.673527] (-) TimerEvent: {}
+[13.712689] (racecar) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.713377] (racecar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.775952] (-) TimerEvent: {}
+[13.863490] (racecar_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.867359] (racecar_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.876117] (-) TimerEvent: {}
+[13.976949] (-) TimerEvent: {}
+[14.041025] (hipnuc_imu) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.046232] (hipnuc_imu) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.046875] (hipnuc_imu) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.047194] (hipnuc_imu) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.068401] (hipnuc_imu) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.068954] (hipnuc_imu) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.070780] (hipnuc_imu) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.073164] (hipnuc_imu) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.077109] (-) TimerEvent: {}
+[14.081203] (hipnuc_imu) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.092534] (hipnuc_imu) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.093113] (hipnuc_imu) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.106865] (hipnuc_imu) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.116653] (hipnuc_imu) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.128992] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.177301] (-) TimerEvent: {}
+[14.239621] (hipnuc_imu) StdoutLine: {'line': b'-- Generating done\n'}
+[14.277495] (-) TimerEvent: {}
+[14.284289] (hipnuc_imu) StdoutLine: {'line': b'-- Build files have been written to: /home/davinci-mini/racecar/build/hipnuc_imu\n'}
+[14.302348] (racecar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.304100] (racecar) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.352161] (racecar_driver) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[14.363343] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[14.363963] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[14.364269] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.364539] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.364794] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.365036] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.365270] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.365509] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.365747] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.365979] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.366453] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.366706] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.366944] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[14.367175] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[14.367408] (serial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.367643] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.367877] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[14.368110] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/davinci-mini/racecar/build/serial\n'}
+[14.379385] (openslam_gmapping) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o\x1b[0m\n'}
+[14.379931] (-) TimerEvent: {}
+[14.380408] (openslam_gmapping) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o\x1b[0m\n'}
+[14.380745] (openslam_gmapping) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking CXX static library libutils.a\x1b[0m\n'}
+[14.381024] (openslam_gmapping) StdoutLine: {'line': b'[ 13%] Built target utils\n'}
+[14.381291] (openslam_gmapping) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o\x1b[0m\n'}
+[14.381557] (hipnuc_imu) CommandEnded: {'returncode': 0}
+[14.383145] (hipnuc_imu) JobProgress: {'identifier': 'hipnuc_imu', 'progress': 'build'}
+[14.383262] (hipnuc_imu) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davinci-mini/racecar/build/hipnuc_imu', '--', '-j3', '-l3'], 'cwd': '/home/davinci-mini/racecar/build/hipnuc_imu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/hipnuc_imu'), ('SSH_CONNECTION', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.407906] (serial) CommandEnded: {'returncode': 0}
+[14.409127] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[14.409236] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davinci-mini/racecar/build/serial', '--', '-j3', '-l3'], 'cwd': '/home/davinci-mini/racecar/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/serial'), ('SSH_CONNECTION', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.480161] (-) TimerEvent: {}
+[14.581006] (-) TimerEvent: {}
+[14.671818] (racecar) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[14.681176] (-) TimerEvent: {}
+[14.686307] (racecar) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[14.781367] (-) TimerEvent: {}
+[14.882397] (-) TimerEvent: {}
+[14.983187] (-) TimerEvent: {}
+[14.999996] (racecar) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[15.083360] (-) TimerEvent: {}
+[15.160241] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.183571] (-) TimerEvent: {}
+[15.247846] (racecar) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[15.282513] (racecar_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.283662] (-) TimerEvent: {}
+[15.312171] (racecar) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[15.352304] (racecar_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[15.369501] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[15.373479] (racecar_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/davinci-mini/racecar/build/racecar_driver\n'}
+[15.379586] (lslidar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[15.383858] (-) TimerEvent: {}
+[15.481750] (encoder) StdoutLine: {'line': b'running develop\n'}
+[15.482674] (encoder) StdoutLine: {'line': b'running egg_info\n'}
+[15.483001] (encoder) StdoutLine: {'line': b'creating encoder.egg-info\n'}
+[15.483273] (encoder) StdoutLine: {'line': b'writing encoder.egg-info/PKG-INFO\n'}
+[15.483531] (encoder) StdoutLine: {'line': b'writing dependency_links to encoder.egg-info/dependency_links.txt\n'}
+[15.483782] (encoder) StdoutLine: {'line': b'writing entry points to encoder.egg-info/entry_points.txt\n'}
+[15.484046] (-) TimerEvent: {}
+[15.484516] (encoder) StdoutLine: {'line': b'writing requirements to encoder.egg-info/requires.txt\n'}
+[15.484813] (encoder) StdoutLine: {'line': b'writing top-level names to encoder.egg-info/top_level.txt\n'}
+[15.485067] (encoder) StdoutLine: {'line': b"writing manifest file 'encoder.egg-info/SOURCES.txt'\n"}
+[15.485309] (encoder) StdoutLine: {'line': b"reading manifest file 'encoder.egg-info/SOURCES.txt'\n"}
+[15.485549] (encoder) StdoutLine: {'line': b"writing manifest file 'encoder.egg-info/SOURCES.txt'\n"}
+[15.485786] (encoder) StdoutLine: {'line': b'running build_ext\n'}
+[15.486554] (encoder) StdoutLine: {'line': b'Creating /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder.egg-link (link to .)\n'}
+[15.500491] (encoder) StdoutLine: {'line': b'Installing encoder_imu_node script to /home/davinci-mini/racecar/install/encoder/lib/encoder\n'}
+[15.500798] (encoder) StdoutLine: {'line': b'Installing encoder_node script to /home/davinci-mini/racecar/install/encoder/lib/encoder\n'}
+[15.501062] (encoder) StdoutLine: {'line': b'Installing test script to /home/davinci-mini/racecar/install/encoder/lib/encoder\n'}
+[15.501305] (encoder) StdoutLine: {'line': b'\n'}
+[15.501540] (encoder) StdoutLine: {'line': b'Installed /home/davinci-mini/racecar/build/encoder\n'}
+[15.501777] (encoder) StdoutLine: {'line': b'running symlink_data\n'}
+[15.502010] (encoder) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[15.502653] (encoder) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.502918] (racecar_driver) CommandEnded: {'returncode': 0}
+[15.503785] (racecar_driver) JobProgress: {'identifier': 'racecar_driver', 'progress': 'build'}
+[15.503886] (racecar_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davinci-mini/racecar/build/racecar_driver', '--', '-j3', '-l3'], 'cwd': '/home/davinci-mini/racecar/build/racecar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/racecar_driver'), ('SSH_CONNECTION', '2408:8422:9113:3209:7144:c86:82c6:307d 2103 2408:8422:9113:3209:40cb:ad2c:9781:5923 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.504811] (nav2_waypoint_cycle) StdoutLine: {'line': b'running develop\n'}
+[15.505173] (nav2_waypoint_cycle) StdoutLine: {'line': b'running egg_info\n'}
+[15.505441] (nav2_waypoint_cycle) StdoutLine: {'line': b'creating nav2_waypoint_cycle.egg-info\n'}
+[15.505689] (nav2_waypoint_cycle) StdoutLine: {'line': b'writing nav2_waypoint_cycle.egg-info/PKG-INFO\n'}
+[15.505928] (nav2_waypoint_cycle) StdoutLine: {'line': b'writing dependency_links to nav2_waypoint_cycle.egg-info/dependency_links.txt\n'}
+[15.507451] (nav2_waypoint_cycle) StdoutLine: {'line': b'writing entry points to nav2_waypoint_cycle.egg-info/entry_points.txt\n'}
+[15.507749] (nav2_waypoint_cycle) StdoutLine: {'line': b'writing requirements to nav2_waypoint_cycle.egg-info/requires.txt\n'}
+[15.508009] (nav2_waypoint_cycle) StdoutLine: {'line': b'writing top-level names to nav2_waypoint_cycle.egg-info/top_level.txt\n'}
+[15.508253] (nav2_waypoint_cycle) StdoutLine: {'line': b"writing manifest file 'nav2_waypoint_cycle.egg-info/SOURCES.txt'\n"}
+[15.508493] (nav2_waypoint_cycle) StdoutLine: {'line': b"reading manifest file 'nav2_waypoint_cycle.egg-info/SOURCES.txt'\n"}
+[15.508731] (nav2_waypoint_cycle) StdoutLine: {'line': b"writing manifest file 'nav2_waypoint_cycle.egg-info/SOURCES.txt'\n"}
+[15.508967] (nav2_waypoint_cycle) StdoutLine: {'line': b'running build_ext\n'}
+[15.509199] (nav2_waypoint_cycle) StdoutLine: {'line': b'Creating /home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/python3.10/site-packages/nav2-waypoint-cycle.egg-link (link to .)\n'}
+[15.509435] (nav2_waypoint_cycle) StdoutLine: {'line': b'Installing nav2_waypoint_cycle script to /home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/nav2_waypoint_cycle\n'}
+[15.509672] (nav2_waypoint_cycle) StdoutLine: {'line': b'\n'}
+[15.509898] (nav2_waypoint_cycle) StdoutLine: {'line': b'Installed /home/davinci-mini/racecar/build/nav2_waypoint_cycle\n'}
+[15.510367] (nav2_waypoint_cycle) StdoutLine: {'line': b'running symlink_data\n'}
+[15.510619] (nav2_waypoint_cycle) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[15.510930] (nav2_waypoint_cycle) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.511173] (hipnuc_imu) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/serial_port.cpp.o\x1b[0m\n'}
+[15.535533] (encoder) CommandEnded: {'returncode': 0}
+[15.584678] (-) TimerEvent: {}
+[15.685962] (-) TimerEvent: {}
+[15.692996] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[15.698412] (encoder) JobEnded: {'identifier': 'encoder', 'rc': 0}
+[15.700140] (nav2_waypoint_cycle) CommandEnded: {'returncode': 0}
+[15.706821] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[15.707295] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[15.707624] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[15.785311] (nav2_waypoint_cycle) JobEnded: {'identifier': 'nav2_waypoint_cycle', 'rc': 0}
+[15.786846] (-) TimerEvent: {}
+[15.887448] (-) TimerEvent: {}
+[15.988267] (-) TimerEvent: {}
+[16.007395] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[16.088456] (-) TimerEvent: {}
+[16.181304] (openslam_gmapping) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o\x1b[0m\n'}
+[16.189087] (-) TimerEvent: {}
+[16.289880] (-) TimerEvent: {}
+[16.341762] (racecar) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[16.390268] (-) TimerEvent: {}
+[16.424483] (racecar) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[16.463641] (racecar) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[16.464338] (racecar) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[16.497549] (-) TimerEvent: {}
+[16.515303] (racecar) StdoutLine: {'line': b'-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[16.597748] (-) TimerEvent: {}
+[16.701797] (-) TimerEvent: {}
+[16.781878] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[16.801982] (-) TimerEvent: {}
+[16.805851] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.821799] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.880713] (lslidar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.902375] (-) TimerEvent: {}
+[17.003227] (-) TimerEvent: {}
+[17.014432] (racecar) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:28 (find_package):\n'}
+[17.015037] (racecar) StderrLine: {'line': b'  By not providing "Findnav2_amcl.cmake" in CMAKE_MODULE_PATH this project\n'}
+[17.015331] (racecar) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[17.015594] (racecar) StderrLine: {'line': b'  "nav2_amcl", but CMake did not find one.\n'}
+[17.015840] (racecar) StderrLine: {'line': b'\n'}
+[17.016079] (racecar) StderrLine: {'line': b'  Could not find a package configuration file provided by "nav2_amcl" with\n'}
+[17.016316] (racecar) StderrLine: {'line': b'  any of the following names:\n'}
+[17.016550] (racecar) StderrLine: {'line': b'\n'}
+[17.016779] (racecar) StderrLine: {'line': b'    nav2_amclConfig.cmake\n'}
+[17.017018] (racecar) StderrLine: {'line': b'    nav2_amcl-config.cmake\n'}
+[17.017256] (racecar) StderrLine: {'line': b'\n'}
+[17.017488] (racecar) StderrLine: {'line': b'  Add the installation prefix of "nav2_amcl" to CMAKE_PREFIX_PATH or set\n'}
+[17.017724] (racecar) StderrLine: {'line': b'  "nav2_amcl_DIR" to a directory containing one of the above files.  If\n'}
+[17.017958] (racecar) StderrLine: {'line': b'  "nav2_amcl" provides a separate development package or SDK, be sure it has\n'}
+[17.018464] (racecar) StderrLine: {'line': b'  been installed.\n'}
+[17.018718] (racecar) StderrLine: {'line': b'\n'}
+[17.034665] (racecar) StderrLine: {'line': b'\x1b[0m\n'}
+[17.036136] (racecar) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[17.036561] (racecar) StdoutLine: {'line': b'See also "/home/davinci-mini/racecar/build/racecar/CMakeFiles/CMakeOutput.log".\n'}
+[17.103410] (-) TimerEvent: {}
+[17.151872] (serial) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[17.152402] (lslidar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[17.167207] (racecar) CommandEnded: {'returncode': 1}
+[17.203610] (-) TimerEvent: {}
+[17.242442] (lslidar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/davinci-mini/racecar/build/lslidar_msgs\n'}
+[17.303773] (-) TimerEvent: {}
+[17.347685] (racecar) JobEnded: {'identifier': 'racecar', 'rc': 1}
+[17.351355] (racecar_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/racecar_driver_node.dir/src/racecar_driver_node.cpp.o\x1b[0m\n'}
+[17.352937] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 'SIGINT'}
+[17.403986] (-) TimerEvent: {}
+[17.504787] (-) TimerEvent: {}
+[17.605589] (-) TimerEvent: {}
+[17.706417] (-) TimerEvent: {}
+[17.807241] (-) TimerEvent: {}
+[17.908070] (-) TimerEvent: {}
+[18.008894] (-) TimerEvent: {}
+[18.109718] (-) TimerEvent: {}
+[18.210604] (-) TimerEvent: {}
+[18.261167] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX static library libsensor_base.a\x1b[0m\n'}
+[18.310792] (-) TimerEvent: {}
+[18.411616] (-) TimerEvent: {}
+[18.486526] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] Built target sensor_base\n'}
+[18.511813] (-) TimerEvent: {}
+[18.612636] (-) TimerEvent: {}
+[18.701157] (openslam_gmapping) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o\x1b[0m\n'}
+[18.712835] (-) TimerEvent: {}
+[18.813666] (-) TimerEvent: {}
+[18.914687] (-) TimerEvent: {}
+[19.015505] (-) TimerEvent: {}
+[19.116307] (-) TimerEvent: {}
+[19.217125] (-) TimerEvent: {}
+[19.318238] (-) TimerEvent: {}
+[19.419041] (-) TimerEvent: {}
+[19.519866] (-) TimerEvent: {}
+[19.598290] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[19.620059] (-) TimerEvent: {}
+[19.720875] (-) TimerEvent: {}
+[19.821705] (-) TimerEvent: {}
+[19.922748] (-) TimerEvent: {}
+[20.023556] (-) TimerEvent: {}
+[20.124386] (-) TimerEvent: {}
+[20.225224] (-) TimerEvent: {}
+[20.326253] (-) TimerEvent: {}
+[20.427079] (-) TimerEvent: {}
+[20.527911] (-) TimerEvent: {}
+[20.628729] (-) TimerEvent: {}
+[20.729554] (-) TimerEvent: {}
+[20.830633] (-) TimerEvent: {}
+[20.931470] (-) TimerEvent: {}
+[21.032306] (-) TimerEvent: {}
+[21.133138] (-) TimerEvent: {}
+[21.233969] (-) TimerEvent: {}
+[21.335071] (-) TimerEvent: {}
+[21.435916] (-) TimerEvent: {}
+[21.536751] (-) TimerEvent: {}
+[21.621996] (openslam_gmapping) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o\x1b[0m\n'}
+[21.636947] (-) TimerEvent: {}
+[21.737769] (-) TimerEvent: {}
+[21.838865] (-) TimerEvent: {}
+[21.939693] (-) TimerEvent: {}
+[22.040514] (-) TimerEvent: {}
+[22.141335] (-) TimerEvent: {}
+[22.242441] (-) TimerEvent: {}
+[22.343259] (-) TimerEvent: {}
+[22.444090] (-) TimerEvent: {}
+[22.544897] (-) TimerEvent: {}
+[22.645685] (-) TimerEvent: {}
+[22.746709] (-) TimerEvent: {}
+[22.847533] (-) TimerEvent: {}
+[22.862664] (serial) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[22.950384] (-) TimerEvent: {}
+[23.051189] (-) TimerEvent: {}
+[23.151993] (-) TimerEvent: {}
+[23.252807] (-) TimerEvent: {}
+[23.353621] (-) TimerEvent: {}
+[23.454717] (-) TimerEvent: {}
+[23.555542] (-) TimerEvent: {}
+[23.656354] (-) TimerEvent: {}
+[23.757189] (-) TimerEvent: {}
+[23.858265] (-) TimerEvent: {}
+[23.962339] (-) TimerEvent: {}
+[24.059296] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libsensor_range.a\x1b[0m\n'}
+[24.062471] (-) TimerEvent: {}
+[24.163222] (-) TimerEvent: {}
+[24.264367] (-) TimerEvent: {}
+[24.299048] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] Built target sensor_range\n'}
+[24.364841] (-) TimerEvent: {}
+[24.449361] (openslam_gmapping) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o\x1b[0m\n'}
+[24.465035] (-) TimerEvent: {}
+[24.565875] (-) TimerEvent: {}
+[24.666872] (-) TimerEvent: {}
+[24.767719] (-) TimerEvent: {}
+[24.868544] (-) TimerEvent: {}
+[24.969374] (-) TimerEvent: {}
+[25.070354] (-) TimerEvent: {}
+[25.171172] (-) TimerEvent: {}
+[25.271998] (-) TimerEvent: {}
+[25.372818] (-) TimerEvent: {}
+[25.473635] (-) TimerEvent: {}
+[25.561479] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libserial.so\x1b[0m\n'}
+[25.573836] (-) TimerEvent: {}
+[25.674860] (-) TimerEvent: {}
+[25.775680] (-) TimerEvent: {}
+[25.876530] (-) TimerEvent: {}
+[25.977364] (-) TimerEvent: {}
+[26.078356] (-) TimerEvent: {}
+[26.143099] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[26.178549] (-) TimerEvent: {}
+[26.197709] (serial) JobEnded: {'identifier': 'serial', 'rc': 'SIGINT'}
+[26.278742] (-) TimerEvent: {}
+[26.379536] (-) TimerEvent: {}
+[26.480327] (-) TimerEvent: {}
+[26.581117] (-) TimerEvent: {}
+[26.651892] (openslam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o\x1b[0m\n'}
+[26.681310] (-) TimerEvent: {}
+[26.782282] (-) TimerEvent: {}
+[26.883069] (-) TimerEvent: {}
+[26.984105] (-) TimerEvent: {}
+[27.084896] (-) TimerEvent: {}
+[27.185712] (-) TimerEvent: {}
+[27.286860] (-) TimerEvent: {}
+[27.387667] (-) TimerEvent: {}
+[27.488460] (-) TimerEvent: {}
+[27.589259] (-) TimerEvent: {}
+[27.690306] (-) TimerEvent: {}
+[27.730713] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX static library libsensor_odometry.a\x1b[0m\n'}
+[27.790568] (-) TimerEvent: {}
+[27.821304] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] Built target sensor_odometry\n'}
+[27.877328] (openslam_gmapping) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o\x1b[0m\n'}
+[27.890758] (-) TimerEvent: {}
+[27.991541] (-) TimerEvent: {}
+[28.092337] (-) TimerEvent: {}
+[28.193134] (-) TimerEvent: {}
+[28.293949] (-) TimerEvent: {}
+[28.394943] (-) TimerEvent: {}
+[28.495752] (-) TimerEvent: {}
+[28.596551] (-) TimerEvent: {}
+[28.637783] (openslam_gmapping) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o\x1b[0m\n'}
+[28.696747] (-) TimerEvent: {}
+[28.797542] (-) TimerEvent: {}
+[28.898558] (-) TimerEvent: {}
+[28.999375] (-) TimerEvent: {}
+[29.100188] (-) TimerEvent: {}
+[29.201002] (-) TimerEvent: {}
+[29.301822] (-) TimerEvent: {}
+[29.402830] (-) TimerEvent: {}
+[29.503635] (-) TimerEvent: {}
+[29.604429] (-) TimerEvent: {}
+[29.705242] (-) TimerEvent: {}
+[29.806258] (-) TimerEvent: {}
+[29.913753] (-) TimerEvent: {}
+[30.014678] (-) TimerEvent: {}
+[30.115483] (-) TimerEvent: {}
+[30.216287] (-) TimerEvent: {}
+[30.317094] (-) TimerEvent: {}
+[30.417907] (-) TimerEvent: {}
+[30.518735] (-) TimerEvent: {}
+[30.619532] (-) TimerEvent: {}
+[30.720336] (-) TimerEvent: {}
+[30.821138] (-) TimerEvent: {}
+[30.921945] (-) TimerEvent: {}
+[31.022803] (-) TimerEvent: {}
+[31.123594] (-) TimerEvent: {}
+[31.224395] (-) TimerEvent: {}
+[31.325305] (-) TimerEvent: {}
+[31.426372] (-) TimerEvent: {}
+[31.527167] (-) TimerEvent: {}
+[31.627968] (-) TimerEvent: {}
+[31.728784] (-) TimerEvent: {}
+[31.829596] (-) TimerEvent: {}
+[31.843277] (openslam_gmapping) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o\x1b[0m\n'}
+[31.929792] (-) TimerEvent: {}
+[32.030603] (-) TimerEvent: {}
+[32.131377] (-) TimerEvent: {}
+[32.232166] (-) TimerEvent: {}
+[32.332996] (-) TimerEvent: {}
+[32.433809] (-) TimerEvent: {}
+[32.534682] (-) TimerEvent: {}
+[32.635476] (-) TimerEvent: {}
+[32.736279] (-) TimerEvent: {}
+[32.837085] (-) TimerEvent: {}
+[32.937903] (-) TimerEvent: {}
+[33.038765] (-) TimerEvent: {}
+[33.139582] (-) TimerEvent: {}
+[33.240394] (-) TimerEvent: {}
+[33.324416] (openslam_gmapping) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o\x1b[0m\n'}
+[33.340590] (-) TimerEvent: {}
+[33.441390] (-) TimerEvent: {}
+[33.542219] (-) TimerEvent: {}
+[33.643005] (-) TimerEvent: {}
+[33.743811] (-) TimerEvent: {}
+[33.844617] (-) TimerEvent: {}
+[33.945432] (-) TimerEvent: {}
+[34.046204] (-) TimerEvent: {}
+[34.147008] (-) TimerEvent: {}
+[34.247831] (-) TimerEvent: {}
+[34.348634] (-) TimerEvent: {}
+[34.450226] (-) TimerEvent: {}
+[34.551011] (-) TimerEvent: {}
+[34.651835] (-) TimerEvent: {}
+[34.752668] (-) TimerEvent: {}
+[34.853524] (-) TimerEvent: {}
+[34.954337] (-) TimerEvent: {}
+[35.055135] (-) TimerEvent: {}
+[35.155938] (-) TimerEvent: {}
+[35.256730] (-) TimerEvent: {}
+[35.357587] (-) TimerEvent: {}
+[35.458427] (-) TimerEvent: {}
+[35.559237] (-) TimerEvent: {}
+[35.660048] (-) TimerEvent: {}
+[35.760847] (-) TimerEvent: {}
+[35.861649] (-) TimerEvent: {}
+[35.962463] (-) TimerEvent: {}
+[36.063247] (-) TimerEvent: {}
+[36.164045] (-) TimerEvent: {}
+[36.264830] (-) TimerEvent: {}
+[36.365624] (-) TimerEvent: {}
+[36.466499] (-) TimerEvent: {}
+[36.567290] (-) TimerEvent: {}
+[36.668058] (-) TimerEvent: {}
+[36.768834] (-) TimerEvent: {}
+[36.869617] (-) TimerEvent: {}
+[36.970430] (-) TimerEvent: {}
+[37.071222] (-) TimerEvent: {}
+[37.172072] (-) TimerEvent: {}
+[37.272870] (-) TimerEvent: {}
+[37.373658] (-) TimerEvent: {}
+[37.474682] (-) TimerEvent: {}
+[37.575454] (-) TimerEvent: {}
+[37.676258] (-) TimerEvent: {}
+[37.777044] (-) TimerEvent: {}
+[37.877892] (-) TimerEvent: {}
+[37.978700] (-) TimerEvent: {}
+[38.079533] (-) TimerEvent: {}
+[38.180323] (-) TimerEvent: {}
+[38.281131] (-) TimerEvent: {}
+[38.381934] (-) TimerEvent: {}
+[38.482770] (-) TimerEvent: {}
+[38.583565] (-) TimerEvent: {}
+[38.684339] (-) TimerEvent: {}
+[38.785130] (-) TimerEvent: {}
+[38.885931] (-) TimerEvent: {}
+[38.986744] (-) TimerEvent: {}
+[39.087532] (-) TimerEvent: {}
+[39.188311] (-) TimerEvent: {}
+[39.293667] (-) TimerEvent: {}
+[39.394557] (-) TimerEvent: {}
+[39.495378] (-) TimerEvent: {}
+[39.596524] (-) TimerEvent: {}
+[39.697320] (-) TimerEvent: {}
+[39.798192] (-) TimerEvent: {}
+[39.882756] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX static library libscanmatcher.a\x1b[0m\n'}
+[39.898378] (-) TimerEvent: {}
+[39.999177] (-) TimerEvent: {}
+[40.011852] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] Built target scanmatcher\n'}
+[40.099374] (-) TimerEvent: {}
+[40.139316] (openslam_gmapping) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o\x1b[0m\n'}
+[40.199582] (-) TimerEvent: {}
+[40.293788] (hipnuc_imu) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/talker.dir/src/ch_serial.c.o\x1b[0m\n'}
+[40.299767] (-) TimerEvent: {}
+[40.364554] (hipnuc_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/davinci-mini/racecar/src/hipnuc_imu/src/ch_serial.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kparse_data\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.365181] (hipnuc_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/davinci-mini/racecar/src/hipnuc_imu/src/ch_serial.c:98:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[40.365507] (hipnuc_imu) StderrLine: {'line': b'   98 |     int ofs = 0, \x1b[01;35m\x1b[Ki\x1b[m\x1b[K = 0;\n'}
+[40.365769] (hipnuc_imu) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[40.400159] (-) TimerEvent: {}
+[40.478617] (hipnuc_imu) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[40.500356] (-) TimerEvent: {}
+[40.601152] (-) TimerEvent: {}
+[40.701963] (-) TimerEvent: {}
+[40.803021] (-) TimerEvent: {}
+[40.903870] (-) TimerEvent: {}
+[41.004654] (-) TimerEvent: {}
+[41.105433] (-) TimerEvent: {}
+[41.206324] (-) TimerEvent: {}
+[41.307125] (-) TimerEvent: {}
+[41.407917] (-) TimerEvent: {}
+[41.508700] (-) TimerEvent: {}
+[41.604935] (hipnuc_imu) StdoutLine: {'line': b'[ 42%] Built target talker\n'}
+[41.608834] (-) TimerEvent: {}
+[41.680288] (hipnuc_imu) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/sub_spec.cpp.o\x1b[0m\n'}
+[41.709050] (-) TimerEvent: {}
+[41.809853] (-) TimerEvent: {}
+[41.910866] (-) TimerEvent: {}
+[42.011671] (-) TimerEvent: {}
+[42.112505] (-) TimerEvent: {}
+[42.213316] (-) TimerEvent: {}
+[42.314267] (-) TimerEvent: {}
+[42.415045] (-) TimerEvent: {}
+[42.515831] (-) TimerEvent: {}
+[42.616629] (-) TimerEvent: {}
+[42.717431] (-) TimerEvent: {}
+[42.818379] (-) TimerEvent: {}
+[42.919184] (-) TimerEvent: {}
+[43.020021] (-) TimerEvent: {}
+[43.120822] (-) TimerEvent: {}
+[43.221633] (-) TimerEvent: {}
+[43.322660] (-) TimerEvent: {}
+[43.423467] (-) TimerEvent: {}
+[43.524277] (-) TimerEvent: {}
+[43.625074] (-) TimerEvent: {}
+[43.725876] (-) TimerEvent: {}
+[43.826878] (-) TimerEvent: {}
+[43.927684] (-) TimerEvent: {}
+[44.028487] (-) TimerEvent: {}
+[44.129299] (-) TimerEvent: {}
+[44.230314] (-) TimerEvent: {}
+[44.331126] (-) TimerEvent: {}
+[44.431939] (-) TimerEvent: {}
+[44.532770] (-) TimerEvent: {}
+[44.633592] (-) TimerEvent: {}
+[44.734580] (-) TimerEvent: {}
+[44.835398] (-) TimerEvent: {}
+[44.936240] (-) TimerEvent: {}
+[45.037085] (-) TimerEvent: {}
+[45.137932] (-) TimerEvent: {}
+[45.238976] (-) TimerEvent: {}
+[45.339781] (-) TimerEvent: {}
+[45.440569] (-) TimerEvent: {}
+[45.541367] (-) TimerEvent: {}
+[45.642353] (-) TimerEvent: {}
+[45.743161] (-) TimerEvent: {}
+[45.845864] (-) TimerEvent: {}
+[45.946876] (-) TimerEvent: {}
+[45.973852] (openslam_gmapping) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o\x1b[0m\n'}
+[46.047067] (-) TimerEvent: {}
+[46.147861] (-) TimerEvent: {}
+[46.248640] (-) TimerEvent: {}
+[46.349436] (-) TimerEvent: {}
+[46.454337] (-) TimerEvent: {}
+[46.555127] (-) TimerEvent: {}
+[46.655926] (-) TimerEvent: {}
+[46.756723] (-) TimerEvent: {}
+[46.857511] (-) TimerEvent: {}
+[46.958506] (-) TimerEvent: {}
+[47.059310] (-) TimerEvent: {}
+[47.160129] (-) TimerEvent: {}
+[47.260954] (-) TimerEvent: {}
+[47.361759] (-) TimerEvent: {}
+[47.462753] (-) TimerEvent: {}
+[47.563533] (-) TimerEvent: {}
+[47.664324] (-) TimerEvent: {}
+[47.765111] (-) TimerEvent: {}
+[47.865903] (-) TimerEvent: {}
+[47.966892] (-) TimerEvent: {}
+[48.067677] (-) TimerEvent: {}
+[48.168469] (-) TimerEvent: {}
+[48.269254] (-) TimerEvent: {}
+[48.370260] (-) TimerEvent: {}
+[48.471043] (-) TimerEvent: {}
+[48.571853] (-) TimerEvent: {}
+[48.672649] (-) TimerEvent: {}
+[48.773445] (-) TimerEvent: {}
+[48.874384] (-) TimerEvent: {}
+[48.975163] (-) TimerEvent: {}
+[49.075954] (-) TimerEvent: {}
+[49.176752] (-) TimerEvent: {}
+[49.277566] (-) TimerEvent: {}
+[49.378568] (-) TimerEvent: {}
+[49.479351] (-) TimerEvent: {}
+[49.580134] (-) TimerEvent: {}
+[49.680935] (-) TimerEvent: {}
+[49.781722] (-) TimerEvent: {}
+[49.882730] (-) TimerEvent: {}
+[49.919745] (openslam_gmapping) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o\x1b[0m\n'}
+[49.982924] (-) TimerEvent: {}
+[50.083685] (-) TimerEvent: {}
+[50.184480] (-) TimerEvent: {}
+[50.285255] (-) TimerEvent: {}
+[50.386250] (-) TimerEvent: {}
+[50.487043] (-) TimerEvent: {}
+[50.587839] (-) TimerEvent: {}
+[50.688627] (-) TimerEvent: {}
+[50.789411] (-) TimerEvent: {}
+[50.890379] (-) TimerEvent: {}
+[50.991184] (-) TimerEvent: {}
+[51.091964] (-) TimerEvent: {}
+[51.192770] (-) TimerEvent: {}
+[51.293575] (-) TimerEvent: {}
+[51.394578] (-) TimerEvent: {}
+[51.453877] (openslam_gmapping) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o\x1b[0m\n'}
+[51.494773] (-) TimerEvent: {}
+[51.595579] (-) TimerEvent: {}
+[51.696364] (-) TimerEvent: {}
+[51.797144] (-) TimerEvent: {}
+[51.897942] (-) TimerEvent: {}
+[51.998932] (-) TimerEvent: {}
+[52.099728] (-) TimerEvent: {}
+[52.200534] (-) TimerEvent: {}
+[52.301331] (-) TimerEvent: {}
+[52.402311] (-) TimerEvent: {}
+[52.503095] (-) TimerEvent: {}
+[52.603896] (-) TimerEvent: {}
+[52.704730] (-) TimerEvent: {}
+[52.805559] (-) TimerEvent: {}
+[52.906569] (-) TimerEvent: {}
+[53.007436] (-) TimerEvent: {}
+[53.108217] (-) TimerEvent: {}
+[53.209007] (-) TimerEvent: {}
+[53.309810] (-) TimerEvent: {}
+[53.410833] (-) TimerEvent: {}
+[53.511627] (-) TimerEvent: {}
+[53.612426] (-) TimerEvent: {}
+[53.713239] (-) TimerEvent: {}
+[53.814215] (-) TimerEvent: {}
+[53.915014] (-) TimerEvent: {}
+[54.015807] (-) TimerEvent: {}
+[54.116612] (-) TimerEvent: {}
+[54.215993] (hipnuc_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/davinci-mini/racecar/src/hipnuc_imu/src/sub_spec.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid topic_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[54.216584] (hipnuc_imu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/davinci-mini/racecar/src/hipnuc_imu/src/sub_spec.cpp:12:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[54.216864] (-) TimerEvent: {}
+[54.217263] (hipnuc_imu) StderrLine: {'line': b'   12 | void topic_callback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::Imu::SharedPtr msg\x1b[m\x1b[K)\n'}
+[54.217598] (hipnuc_imu) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[54.317097] (-) TimerEvent: {}
+[54.417893] (-) TimerEvent: {}
+[54.518890] (-) TimerEvent: {}
+[54.619688] (-) TimerEvent: {}
+[54.720485] (-) TimerEvent: {}
+[54.821263] (-) TimerEvent: {}
+[54.922268] (-) TimerEvent: {}
+[55.023044] (-) TimerEvent: {}
+[55.123831] (-) TimerEvent: {}
+[55.224627] (-) TimerEvent: {}
+[55.325414] (-) TimerEvent: {}
+[55.426379] (-) TimerEvent: {}
+[55.527159] (-) TimerEvent: {}
+[55.627955] (-) TimerEvent: {}
+[55.728755] (-) TimerEvent: {}
+[55.829549] (-) TimerEvent: {}
+[55.930534] (-) TimerEvent: {}
+[56.031321] (-) TimerEvent: {}
+[56.132127] (-) TimerEvent: {}
+[56.232919] (-) TimerEvent: {}
+[56.333710] (-) TimerEvent: {}
+[56.434707] (-) TimerEvent: {}
+[56.535499] (-) TimerEvent: {}
+[56.636302] (-) TimerEvent: {}
+[56.737091] (-) TimerEvent: {}
+[56.837899] (-) TimerEvent: {}
+[56.938891] (-) TimerEvent: {}
+[57.039686] (-) TimerEvent: {}
+[57.140475] (-) TimerEvent: {}
+[57.241285] (-) TimerEvent: {}
+[57.342282] (-) TimerEvent: {}
+[57.443104] (-) TimerEvent: {}
+[57.543903] (-) TimerEvent: {}
+[57.644718] (-) TimerEvent: {}
+[57.745563] (-) TimerEvent: {}
+[57.846556] (-) TimerEvent: {}
+[57.947360] (-) TimerEvent: {}
+[58.048159] (-) TimerEvent: {}
+[58.148962] (-) TimerEvent: {}
+[58.249792] (-) TimerEvent: {}
+[58.350799] (-) TimerEvent: {}
+[58.451589] (-) TimerEvent: {}
+[58.552394] (-) TimerEvent: {}
+[58.653167] (-) TimerEvent: {}
+[58.753975] (-) TimerEvent: {}
+[58.827757] (openslam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libgridfastslam.a\x1b[0m\n'}
+[58.854385] (-) TimerEvent: {}
+[58.917887] (openslam_gmapping) StdoutLine: {'line': b'[100%] Built target gridfastslam\n'}
+[58.949307] (openslam_gmapping) JobEnded: {'identifier': 'openslam_gmapping', 'rc': 'SIGINT'}
+[58.954542] (-) TimerEvent: {}
+[59.055262] (-) TimerEvent: {}
+[59.156035] (-) TimerEvent: {}
+[59.256796] (-) TimerEvent: {}
+[59.357535] (-) TimerEvent: {}
+[59.458359] (-) TimerEvent: {}
+[59.559108] (-) TimerEvent: {}
+[59.659859] (-) TimerEvent: {}
+[59.760614] (-) TimerEvent: {}
+[59.861365] (-) TimerEvent: {}
+[59.962194] (-) TimerEvent: {}
+[60.062949] (-) TimerEvent: {}
+[60.168081] (-) TimerEvent: {}
+[60.268865] (-) TimerEvent: {}
+[60.369616] (-) TimerEvent: {}
+[60.470431] (-) TimerEvent: {}
+[60.571189] (-) TimerEvent: {}
+[60.671951] (-) TimerEvent: {}
+[60.772704] (-) TimerEvent: {}
+[60.873456] (-) TimerEvent: {}
+[60.974216] (-) TimerEvent: {}
+[61.075230] (-) TimerEvent: {}
+[61.175994] (-) TimerEvent: {}
+[61.276752] (-) TimerEvent: {}
+[61.377503] (-) TimerEvent: {}
+[61.478694] (-) TimerEvent: {}
+[61.579454] (-) TimerEvent: {}
+[61.680220] (-) TimerEvent: {}
+[61.780992] (-) TimerEvent: {}
+[61.881757] (-) TimerEvent: {}
+[61.982601] (-) TimerEvent: {}
+[62.083401] (-) TimerEvent: {}
+[62.184161] (-) TimerEvent: {}
+[62.284945] (-) TimerEvent: {}
+[62.385715] (-) TimerEvent: {}
+[62.486971] (-) TimerEvent: {}
+[62.550651] (racecar_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable racecar_driver_node\x1b[0m\n'}
+[62.587150] (-) TimerEvent: {}
+[62.687920] (-) TimerEvent: {}
+[62.788705] (-) TimerEvent: {}
+[62.889501] (-) TimerEvent: {}
+[62.990485] (-) TimerEvent: {}
+[63.091248] (-) TimerEvent: {}
+[63.192021] (-) TimerEvent: {}
+[63.293155] (-) TimerEvent: {}
+[63.393919] (-) TimerEvent: {}
+[63.494759] (-) TimerEvent: {}
+[63.595597] (-) TimerEvent: {}
+[63.696359] (-) TimerEvent: {}
+[63.797165] (-) TimerEvent: {}
+[63.897953] (-) TimerEvent: {}
+[63.998749] (-) TimerEvent: {}
+[64.099523] (-) TimerEvent: {}
+[64.200289] (-) TimerEvent: {}
+[64.301082] (-) TimerEvent: {}
+[64.401888] (-) TimerEvent: {}
+[64.502730] (-) TimerEvent: {}
+[64.603508] (-) TimerEvent: {}
+[64.640647] (racecar_driver) StdoutLine: {'line': b'[100%] Built target racecar_driver_node\n'}
+[64.684856] (racecar_driver) JobEnded: {'identifier': 'racecar_driver', 'rc': 'SIGINT'}
+[64.703588] (-) TimerEvent: {}
+[64.804111] (-) TimerEvent: {}
+[64.904765] (-) TimerEvent: {}
+[65.005457] (-) TimerEvent: {}
+[65.106175] (-) TimerEvent: {}
+[65.206946] (-) TimerEvent: {}
+[65.307623] (-) TimerEvent: {}
+[65.408298] (-) TimerEvent: {}
+[65.509040] (-) TimerEvent: {}
+[65.609774] (-) TimerEvent: {}
+[65.710530] (-) TimerEvent: {}
+[65.811157] (-) TimerEvent: {}
+[65.911809] (-) TimerEvent: {}
+[66.012538] (-) TimerEvent: {}
+[66.113277] (-) TimerEvent: {}
+[66.213997] (-) TimerEvent: {}
+[66.314690] (-) TimerEvent: {}
+[66.415361] (-) TimerEvent: {}
+[66.516118] (-) TimerEvent: {}
+[66.616890] (-) TimerEvent: {}
+[66.717590] (-) TimerEvent: {}
+[66.818334] (-) TimerEvent: {}
+[66.918990] (-) TimerEvent: {}
+[67.019702] (-) TimerEvent: {}
+[67.120413] (-) TimerEvent: {}
+[67.221093] (-) TimerEvent: {}
+[67.321743] (-) TimerEvent: {}
+[67.422426] (-) TimerEvent: {}
+[67.523117] (-) TimerEvent: {}
+[67.623818] (-) TimerEvent: {}
+[67.724463] (-) TimerEvent: {}
+[67.825071] (-) TimerEvent: {}
+[67.925667] (-) TimerEvent: {}
+[68.026367] (-) TimerEvent: {}
+[68.127065] (-) TimerEvent: {}
+[68.227735] (-) TimerEvent: {}
+[68.328385] (-) TimerEvent: {}
+[68.429016] (-) TimerEvent: {}
+[68.529713] (-) TimerEvent: {}
+[68.630486] (-) TimerEvent: {}
+[68.731115] (-) TimerEvent: {}
+[68.831685] (-) TimerEvent: {}
+[68.932255] (-) TimerEvent: {}
+[69.032892] (-) TimerEvent: {}
+[69.133585] (-) TimerEvent: {}
+[69.234289] (-) TimerEvent: {}
+[69.334921] (-) TimerEvent: {}
+[69.435543] (-) TimerEvent: {}
+[69.536249] (-) TimerEvent: {}
+[69.636937] (-) TimerEvent: {}
+[69.737565] (-) TimerEvent: {}
+[69.838134] (-) TimerEvent: {}
+[69.938711] (-) TimerEvent: {}
+[70.039360] (-) TimerEvent: {}
+[70.140056] (-) TimerEvent: {}
+[70.240734] (-) TimerEvent: {}
+[70.341378] (-) TimerEvent: {}
+[70.442086] (-) TimerEvent: {}
+[70.542782] (-) TimerEvent: {}
+[70.643484] (-) TimerEvent: {}
+[70.744164] (-) TimerEvent: {}
+[70.844798] (-) TimerEvent: {}
+[70.945439] (-) TimerEvent: {}
+[71.046200] (-) TimerEvent: {}
+[71.146881] (-) TimerEvent: {}
+[71.247550] (-) TimerEvent: {}
+[71.348208] (-) TimerEvent: {}
+[71.450211] (-) TimerEvent: {}
+[71.550911] (-) TimerEvent: {}
+[71.651596] (-) TimerEvent: {}
+[71.752256] (-) TimerEvent: {}
+[71.852860] (-) TimerEvent: {}
+[71.953499] (-) TimerEvent: {}
+[72.054220] (-) TimerEvent: {}
+[72.154912] (-) TimerEvent: {}
+[72.255574] (-) TimerEvent: {}
+[72.356199] (-) TimerEvent: {}
+[72.456858] (-) TimerEvent: {}
+[72.557876] (-) TimerEvent: {}
+[72.659073] (-) TimerEvent: {}
+[72.759744] (-) TimerEvent: {}
+[72.860365] (-) TimerEvent: {}
+[72.961001] (-) TimerEvent: {}
+[73.061702] (-) TimerEvent: {}
+[73.162440] (-) TimerEvent: {}
+[73.263107] (-) TimerEvent: {}
+[73.363751] (-) TimerEvent: {}
+[73.464413] (-) TimerEvent: {}
+[73.565121] (-) TimerEvent: {}
+[73.665815] (-) TimerEvent: {}
+[73.766486] (-) TimerEvent: {}
+[73.867082] (-) TimerEvent: {}
+[73.967717] (-) TimerEvent: {}
+[74.068417] (-) TimerEvent: {}
+[74.169105] (-) TimerEvent: {}
+[74.269763] (-) TimerEvent: {}
+[74.370411] (-) TimerEvent: {}
+[74.471059] (-) TimerEvent: {}
+[74.571763] (-) TimerEvent: {}
+[74.672452] (-) TimerEvent: {}
+[74.773114] (-) TimerEvent: {}
+[74.873772] (-) TimerEvent: {}
+[74.974498] (-) TimerEvent: {}
+[75.075201] (-) TimerEvent: {}
+[75.175897] (-) TimerEvent: {}
+[75.276593] (-) TimerEvent: {}
+[75.377256] (-) TimerEvent: {}
+[75.477938] (-) TimerEvent: {}
+[75.578694] (-) TimerEvent: {}
+[75.679393] (-) TimerEvent: {}
+[75.780046] (-) TimerEvent: {}
+[75.880648] (-) TimerEvent: {}
+[75.981294] (-) TimerEvent: {}
+[76.081993] (-) TimerEvent: {}
+[76.182748] (-) TimerEvent: {}
+[76.283412] (-) TimerEvent: {}
+[76.384035] (-) TimerEvent: {}
+[76.484744] (-) TimerEvent: {}
+[76.585439] (-) TimerEvent: {}
+[76.686140] (-) TimerEvent: {}
+[76.786849] (-) TimerEvent: {}
+[76.887486] (-) TimerEvent: {}
+[76.988154] (-) TimerEvent: {}
+[77.088898] (-) TimerEvent: {}
+[77.189659] (-) TimerEvent: {}
+[77.290388] (-) TimerEvent: {}
+[77.391050] (-) TimerEvent: {}
+[77.491724] (-) TimerEvent: {}
+[77.592461] (-) TimerEvent: {}
+[77.693157] (-) TimerEvent: {}
+[77.793836] (-) TimerEvent: {}
+[77.894525] (-) TimerEvent: {}
+[77.995171] (-) TimerEvent: {}
+[78.095879] (-) TimerEvent: {}
+[78.196570] (-) TimerEvent: {}
+[78.297225] (-) TimerEvent: {}
+[78.397837] (-) TimerEvent: {}
+[78.498542] (-) TimerEvent: {}
+[78.599247] (-) TimerEvent: {}
+[78.699941] (-) TimerEvent: {}
+[78.800606] (-) TimerEvent: {}
+[78.901226] (-) TimerEvent: {}
+[79.001881] (-) TimerEvent: {}
+[79.102670] (-) TimerEvent: {}
+[79.203377] (-) TimerEvent: {}
+[79.304067] (-) TimerEvent: {}
+[79.404740] (-) TimerEvent: {}
+[79.505440] (-) TimerEvent: {}
+[79.606203] (-) TimerEvent: {}
+[79.706936] (-) TimerEvent: {}
+[79.807627] (-) TimerEvent: {}
+[79.866785] (hipnuc_imu) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[79.907815] (-) TimerEvent: {}
+[80.008579] (-) TimerEvent: {}
+[80.109324] (-) TimerEvent: {}
+[80.210132] (-) TimerEvent: {}
+[80.310845] (-) TimerEvent: {}
+[80.411519] (-) TimerEvent: {}
+[80.512240] (-) TimerEvent: {}
+[80.612971] (-) TimerEvent: {}
+[80.713676] (-) TimerEvent: {}
+[80.814383] (-) TimerEvent: {}
+[80.915000] (-) TimerEvent: {}
+[81.015663] (-) TimerEvent: {}
+[81.116400] (-) TimerEvent: {}
+[81.217135] (-) TimerEvent: {}
+[81.317822] (-) TimerEvent: {}
+[81.418492] (-) TimerEvent: {}
+[81.519128] (-) TimerEvent: {}
+[81.596812] (hipnuc_imu) StdoutLine: {'line': b'[ 71%] Built target listener\n'}
+[81.619287] (-) TimerEvent: {}
+[81.647737] (hipnuc_imu) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o\x1b[0m\n'}
+[81.719448] (-) TimerEvent: {}
+[81.820113] (-) TimerEvent: {}
+[81.920773] (-) TimerEvent: {}
+[82.021455] (-) TimerEvent: {}
+[82.122204] (-) TimerEvent: {}
+[82.222898] (-) TimerEvent: {}
+[82.323578] (-) TimerEvent: {}
+[82.424229] (-) TimerEvent: {}
+[82.524924] (-) TimerEvent: {}
+[82.625628] (-) TimerEvent: {}
+[82.726344] (-) TimerEvent: {}
+[82.826918] (-) TimerEvent: {}
+[82.927477] (-) TimerEvent: {}
+[83.028124] (-) TimerEvent: {}
+[83.128839] (-) TimerEvent: {}
+[83.229520] (-) TimerEvent: {}
+[83.330172] (-) TimerEvent: {}
+[83.430823] (-) TimerEvent: {}
+[83.531501] (-) TimerEvent: {}
+[83.632210] (-) TimerEvent: {}
+[83.732880] (-) TimerEvent: {}
+[83.833496] (-) TimerEvent: {}
+[83.934126] (-) TimerEvent: {}
+[84.034784] (-) TimerEvent: {}
+[84.135484] (-) TimerEvent: {}
+[84.236174] (-) TimerEvent: {}
+[84.336863] (-) TimerEvent: {}
+[84.437570] (-) TimerEvent: {}
+[84.542235] (-) TimerEvent: {}
+[84.642977] (-) TimerEvent: {}
+[84.743707] (-) TimerEvent: {}
+[84.844427] (-) TimerEvent: {}
+[84.945267] (-) TimerEvent: {}
+[85.046241] (-) TimerEvent: {}
+[85.147224] (-) TimerEvent: {}
+[85.247961] (-) TimerEvent: {}
+[85.348659] (-) TimerEvent: {}
+[85.454230] (-) TimerEvent: {}
+[85.554879] (-) TimerEvent: {}
+[85.655986] (-) TimerEvent: {}
+[85.756699] (-) TimerEvent: {}
+[85.857425] (-) TimerEvent: {}
+[85.958175] (-) TimerEvent: {}
+[86.058890] (-) TimerEvent: {}
+[86.159606] (-) TimerEvent: {}
+[86.260305] (-) TimerEvent: {}
+[86.360973] (-) TimerEvent: {}
+[86.461642] (-) TimerEvent: {}
+[86.562452] (-) TimerEvent: {}
+[86.663169] (-) TimerEvent: {}
+[86.763840] (-) TimerEvent: {}
+[86.864470] (-) TimerEvent: {}
+[86.965171] (-) TimerEvent: {}
+[87.065895] (-) TimerEvent: {}
+[87.166649] (-) TimerEvent: {}
+[87.267339] (-) TimerEvent: {}
+[87.368004] (-) TimerEvent: {}
+[87.468667] (-) TimerEvent: {}
+[87.569393] (-) TimerEvent: {}
+[87.670137] (-) TimerEvent: {}
+[87.770802] (-) TimerEvent: {}
+[87.871416] (-) TimerEvent: {}
+[87.972091] (-) TimerEvent: {}
+[88.072807] (-) TimerEvent: {}
+[88.173517] (-) TimerEvent: {}
+[88.274199] (-) TimerEvent: {}
+[88.374876] (-) TimerEvent: {}
+[88.475555] (-) TimerEvent: {}
+[88.576274] (-) TimerEvent: {}
+[88.677040] (-) TimerEvent: {}
+[88.777705] (-) TimerEvent: {}
+[88.878522] (-) TimerEvent: {}
+[88.979150] (-) TimerEvent: {}
+[89.079867] (-) TimerEvent: {}
+[89.180570] (-) TimerEvent: {}
+[89.281268] (-) TimerEvent: {}
+[89.381948] (-) TimerEvent: {}
+[89.482679] (-) TimerEvent: {}
+[89.583405] (-) TimerEvent: {}
+[89.684107] (-) TimerEvent: {}
+[89.784769] (-) TimerEvent: {}
+[89.885358] (-) TimerEvent: {}
+[89.986002] (-) TimerEvent: {}
+[90.086789] (-) TimerEvent: {}
+[90.187501] (-) TimerEvent: {}
+[90.288276] (-) TimerEvent: {}
+[90.388941] (-) TimerEvent: {}
+[90.489628] (-) TimerEvent: {}
+[90.590410] (-) TimerEvent: {}
+[90.691108] (-) TimerEvent: {}
+[90.791793] (-) TimerEvent: {}
+[90.892512] (-) TimerEvent: {}
+[90.993218] (-) TimerEvent: {}
+[91.094145] (-) TimerEvent: {}
+[91.194853] (-) TimerEvent: {}
+[91.295576] (-) TimerEvent: {}
+[91.396298] (-) TimerEvent: {}
+[91.497027] (-) TimerEvent: {}
+[91.597765] (-) TimerEvent: {}
+[91.698655] (-) TimerEvent: {}
+[91.799389] (-) TimerEvent: {}
+[91.900104] (-) TimerEvent: {}
+[92.000819] (-) TimerEvent: {}
+[92.101550] (-) TimerEvent: {}
+[92.202277] (-) TimerEvent: {}
+[92.302999] (-) TimerEvent: {}
+[92.403706] (-) TimerEvent: {}
+[92.504461] (-) TimerEvent: {}
+[92.605215] (-) TimerEvent: {}
+[92.705947] (-) TimerEvent: {}
+[92.806751] (-) TimerEvent: {}
+[92.907466] (-) TimerEvent: {}
+[93.008200] (-) TimerEvent: {}
+[93.108962] (-) TimerEvent: {}
+[93.209715] (-) TimerEvent: {}
+[93.310535] (-) TimerEvent: {}
+[93.411255] (-) TimerEvent: {}
+[93.511997] (-) TimerEvent: {}
+[93.612721] (-) TimerEvent: {}
+[93.713445] (-) TimerEvent: {}
+[93.814172] (-) TimerEvent: {}
+[93.914871] (-) TimerEvent: {}
+[94.015605] (-) TimerEvent: {}
+[94.116339] (-) TimerEvent: {}
+[94.217070] (-) TimerEvent: {}
+[94.317792] (-) TimerEvent: {}
+[94.418570] (-) TimerEvent: {}
+[94.519282] (-) TimerEvent: {}
+[94.619999] (-) TimerEvent: {}
+[94.720699] (-) TimerEvent: {}
+[94.821373] (-) TimerEvent: {}
+[94.922070] (-) TimerEvent: {}
+[95.022767] (-) TimerEvent: {}
+[95.123480] (-) TimerEvent: {}
+[95.224176] (-) TimerEvent: {}
+[95.324948] (-) TimerEvent: {}
+[95.425637] (-) TimerEvent: {}
+[95.526377] (-) TimerEvent: {}
+[95.627087] (-) TimerEvent: {}
+[95.727783] (-) TimerEvent: {}
+[95.828473] (-) TimerEvent: {}
+[95.929158] (-) TimerEvent: {}
+[96.029898] (-) TimerEvent: {}
+[96.130656] (-) TimerEvent: {}
+[96.231362] (-) TimerEvent: {}
+[96.332058] (-) TimerEvent: {}
+[96.432771] (-) TimerEvent: {}
+[96.533495] (-) TimerEvent: {}
+[96.634224] (-) TimerEvent: {}
+[96.734933] (-) TimerEvent: {}
+[96.835618] (-) TimerEvent: {}
+[96.936305] (-) TimerEvent: {}
+[97.037026] (-) TimerEvent: {}
+[97.137757] (-) TimerEvent: {}
+[97.238508] (-) TimerEvent: {}
+[97.339222] (-) TimerEvent: {}
+[97.439941] (-) TimerEvent: {}
+[97.540661] (-) TimerEvent: {}
+[97.641374] (-) TimerEvent: {}
+[97.742124] (-) TimerEvent: {}
+[97.842832] (-) TimerEvent: {}
+[97.943504] (-) TimerEvent: {}
+[98.044197] (-) TimerEvent: {}
+[98.144898] (-) TimerEvent: {}
+[98.245644] (-) TimerEvent: {}
+[98.346597] (-) TimerEvent: {}
+[98.447330] (-) TimerEvent: {}
+[98.548134] (-) TimerEvent: {}
+[98.648911] (-) TimerEvent: {}
+[98.749781] (-) TimerEvent: {}
+[98.850590] (-) TimerEvent: {}
+[98.951322] (-) TimerEvent: {}
+[99.052077] (-) TimerEvent: {}
+[99.152770] (-) TimerEvent: {}
+[99.253468] (-) TimerEvent: {}
+[99.354245] (-) TimerEvent: {}
+[99.458210] (-) TimerEvent: {}
+[99.558929] (-) TimerEvent: {}
+[99.659797] (-) TimerEvent: {}
+[99.760490] (-) TimerEvent: {}
+[99.861176] (-) TimerEvent: {}
+[99.961866] (-) TimerEvent: {}
+[100.062645] (-) TimerEvent: {}
+[100.163334] (-) TimerEvent: {}
+[100.264009] (-) TimerEvent: {}
+[100.377176] (-) TimerEvent: {}
+[100.477864] (-) TimerEvent: {}
+[100.578591] (-) TimerEvent: {}
+[100.679267] (-) TimerEvent: {}
+[100.779934] (-) TimerEvent: {}
+[100.880613] (-) TimerEvent: {}
+[100.981290] (-) TimerEvent: {}
+[101.082005] (-) TimerEvent: {}
+[101.182763] (-) TimerEvent: {}
+[101.283443] (-) TimerEvent: {}
+[101.384122] (-) TimerEvent: {}
+[101.484816] (-) TimerEvent: {}
+[101.585512] (-) TimerEvent: {}
+[101.686213] (-) TimerEvent: {}
+[101.786900] (-) TimerEvent: {}
+[101.887621] (-) TimerEvent: {}
+[101.988331] (-) TimerEvent: {}
+[102.089228] (-) TimerEvent: {}
+[102.189919] (-) TimerEvent: {}
+[102.290663] (-) TimerEvent: {}
+[102.391396] (-) TimerEvent: {}
+[102.492283] (-) TimerEvent: {}
+[102.593782] (-) TimerEvent: {}
+[102.694652] (-) TimerEvent: {}
+[102.795407] (-) TimerEvent: {}
+[102.896267] (-) TimerEvent: {}
+[102.997105] (-) TimerEvent: {}
+[103.097850] (-) TimerEvent: {}
+[103.199069] (-) TimerEvent: {}
+[103.299882] (-) TimerEvent: {}
+[103.400701] (-) TimerEvent: {}
+[103.501931] (-) TimerEvent: {}
+[103.603194] (-) TimerEvent: {}
+[103.704431] (-) TimerEvent: {}
+[103.805209] (-) TimerEvent: {}
+[103.905980] (-) TimerEvent: {}
+[104.006813] (-) TimerEvent: {}
+[104.107556] (-) TimerEvent: {}
+[104.208361] (-) TimerEvent: {}
+[104.309163] (-) TimerEvent: {}
+[104.409836] (-) TimerEvent: {}
+[104.510598] (-) TimerEvent: {}
+[104.611297] (-) TimerEvent: {}
+[104.711986] (-) TimerEvent: {}
+[104.812667] (-) TimerEvent: {}
+[104.913341] (-) TimerEvent: {}
+[105.014080] (-) TimerEvent: {}
+[105.114781] (-) TimerEvent: {}
+[105.215459] (-) TimerEvent: {}
+[105.316156] (-) TimerEvent: {}
+[105.416856] (-) TimerEvent: {}
+[105.517546] (-) TimerEvent: {}
+[105.618255] (-) TimerEvent: {}
+[105.718959] (-) TimerEvent: {}
+[105.819650] (-) TimerEvent: {}
+[105.920326] (-) TimerEvent: {}
+[106.021012] (-) TimerEvent: {}
+[106.121710] (-) TimerEvent: {}
+[106.222476] (-) TimerEvent: {}
+[106.323154] (-) TimerEvent: {}
+[106.423826] (-) TimerEvent: {}
+[106.524516] (-) TimerEvent: {}
+[106.625231] (-) TimerEvent: {}
+[106.725944] (-) TimerEvent: {}
+[106.826700] (-) TimerEvent: {}
+[106.927379] (-) TimerEvent: {}
+[107.028074] (-) TimerEvent: {}
+[107.128781] (-) TimerEvent: {}
+[107.229503] (-) TimerEvent: {}
+[107.330259] (-) TimerEvent: {}
+[107.430972] (-) TimerEvent: {}
+[107.531666] (-) TimerEvent: {}
+[107.632374] (-) TimerEvent: {}
+[107.733070] (-) TimerEvent: {}
+[107.833788] (-) TimerEvent: {}
+[107.934788] (-) TimerEvent: {}
+[108.035495] (-) TimerEvent: {}
+[108.136194] (-) TimerEvent: {}
+[108.236888] (-) TimerEvent: {}
+[108.337849] (-) TimerEvent: {}
+[108.438763] (-) TimerEvent: {}
+[108.539471] (-) TimerEvent: {}
+[108.640187] (-) TimerEvent: {}
+[108.740895] (-) TimerEvent: {}
+[108.841610] (-) TimerEvent: {}
+[108.942764] (-) TimerEvent: {}
+[109.043477] (-) TimerEvent: {}
+[109.144175] (-) TimerEvent: {}
+[109.244864] (-) TimerEvent: {}
+[109.345559] (-) TimerEvent: {}
+[109.447591] (-) TimerEvent: {}
+[109.548299] (-) TimerEvent: {}
+[109.649003] (-) TimerEvent: {}
+[109.749699] (-) TimerEvent: {}
+[109.850453] (-) TimerEvent: {}
+[109.957987] (-) TimerEvent: {}
+[110.058767] (-) TimerEvent: {}
+[110.159472] (-) TimerEvent: {}
+[110.260173] (-) TimerEvent: {}
+[110.360863] (-) TimerEvent: {}
+[110.461582] (-) TimerEvent: {}
+[110.562683] (-) TimerEvent: {}
+[110.663412] (-) TimerEvent: {}
+[110.764117] (-) TimerEvent: {}
+[110.864833] (-) TimerEvent: {}
+[110.965534] (-) TimerEvent: {}
+[111.066330] (-) TimerEvent: {}
+[111.167018] (-) TimerEvent: {}
+[111.267780] (-) TimerEvent: {}
+[111.368489] (-) TimerEvent: {}
+[111.469190] (-) TimerEvent: {}
+[111.569929] (-) TimerEvent: {}
+[111.670856] (-) TimerEvent: {}
+[111.771549] (-) TimerEvent: {}
+[111.872239] (-) TimerEvent: {}
+[111.972954] (-) TimerEvent: {}
+[112.073673] (-) TimerEvent: {}
+[112.174555] (-) TimerEvent: {}
+[112.275351] (-) TimerEvent: {}
+[112.376049] (-) TimerEvent: {}
+[112.476744] (-) TimerEvent: {}
+[112.577460] (-) TimerEvent: {}
+[112.678204] (-) TimerEvent: {}
+[112.778910] (-) TimerEvent: {}
+[112.879879] (-) TimerEvent: {}
+[112.980570] (-) TimerEvent: {}
+[113.081366] (-) TimerEvent: {}
+[113.182095] (-) TimerEvent: {}
+[113.282802] (-) TimerEvent: {}
+[113.383454] (-) TimerEvent: {}
+[113.484101] (-) TimerEvent: {}
+[113.584832] (-) TimerEvent: {}
+[113.685525] (-) TimerEvent: {}
+[113.786328] (-) TimerEvent: {}
+[113.887018] (-) TimerEvent: {}
+[113.987711] (-) TimerEvent: {}
+[114.088415] (-) TimerEvent: {}
+[114.189521] (-) TimerEvent: {}
+[114.290240] (-) TimerEvent: {}
+[114.390926] (-) TimerEvent: {}
+[114.491612] (-) TimerEvent: {}
+[114.592429] (-) TimerEvent: {}
+[114.693179] (-) TimerEvent: {}
+[114.793959] (-) TimerEvent: {}
+[114.894734] (-) TimerEvent: {}
+[114.995483] (-) TimerEvent: {}
+[115.096204] (-) TimerEvent: {}
+[115.196911] (-) TimerEvent: {}
+[115.297562] (-) TimerEvent: {}
+[115.398110] (-) TimerEvent: {}
+[115.498656] (-) TimerEvent: {}
+[115.599390] (-) TimerEvent: {}
+[115.700089] (-) TimerEvent: {}
+[115.800819] (-) TimerEvent: {}
+[115.901513] (-) TimerEvent: {}
+[116.007593] (-) TimerEvent: {}
+[116.108304] (-) TimerEvent: {}
+[116.209005] (-) TimerEvent: {}
+[116.309686] (-) TimerEvent: {}
+[116.410595] (-) TimerEvent: {}
+[116.511297] (-) TimerEvent: {}
+[116.614379] (-) TimerEvent: {}
+[116.715082] (-) TimerEvent: {}
+[116.815798] (-) TimerEvent: {}
+[116.916551] (-) TimerEvent: {}
+[117.017293] (-) TimerEvent: {}
+[117.118001] (-) TimerEvent: {}
+[117.218876] (-) TimerEvent: {}
+[117.319587] (-) TimerEvent: {}
+[117.420340] (-) TimerEvent: {}
+[117.521053] (-) TimerEvent: {}
+[117.621796] (-) TimerEvent: {}
+[117.722559] (-) TimerEvent: {}
+[117.823308] (-) TimerEvent: {}
+[117.924050] (-) TimerEvent: {}
+[118.024741] (-) TimerEvent: {}
+[118.125472] (-) TimerEvent: {}
+[118.226226] (-) TimerEvent: {}
+[118.326942] (-) TimerEvent: {}
+[118.427652] (-) TimerEvent: {}
+[118.528364] (-) TimerEvent: {}
+[118.563819] (hipnuc_imu) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_filter_node\x1b[0m\n'}
+[118.628541] (-) TimerEvent: {}
+[118.729228] (-) TimerEvent: {}
+[118.830006] (-) TimerEvent: {}
+[118.930836] (-) TimerEvent: {}
+[119.031579] (-) TimerEvent: {}
+[119.132356] (-) TimerEvent: {}
+[119.233493] (-) TimerEvent: {}
+[119.334278] (-) TimerEvent: {}
+[119.435093] (-) TimerEvent: {}
+[119.535819] (-) TimerEvent: {}
+[119.636544] (-) TimerEvent: {}
+[119.737247] (-) TimerEvent: {}
+[119.837923] (-) TimerEvent: {}
+[119.938772] (-) TimerEvent: {}
+[120.039472] (-) TimerEvent: {}
+[120.140205] (-) TimerEvent: {}
+[120.240942] (-) TimerEvent: {}
+[120.341764] (-) TimerEvent: {}
+[120.442476] (-) TimerEvent: {}
+[120.488170] (hipnuc_imu) StdoutLine: {'line': b'[100%] Built target imu_filter_node\n'}
+[120.545171] (-) TimerEvent: {}
+[120.549357] (hipnuc_imu) JobEnded: {'identifier': 'hipnuc_imu', 'rc': 'SIGINT'}
+[120.561979] (lslidar_driver) JobSkipped: {'identifier': 'lslidar_driver'}
+[120.562180] (slam_gmapping) JobSkipped: {'identifier': 'slam_gmapping'}
+[120.562264] (-) EventReactorShutdown: {}

@@ -1,0 +1,23 @@
+[5.803s] Invoking command in '/home/davinci-mini/racecar/src/encoder': PYTHONPATH=/home/davinci-mini/racecar/build/encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder build --build-base /home/davinci-mini/racecar/build/encoder/build install --record /home/davinci-mini/racecar/build/encoder/install.log --single-version-externally-managed install_data
+[6.861s] running egg_info
+[6.864s] writing ../../build/encoder/encoder.egg-info/PKG-INFO
+[6.865s] writing dependency_links to ../../build/encoder/encoder.egg-info/dependency_links.txt
+[6.865s] writing entry points to ../../build/encoder/encoder.egg-info/entry_points.txt
+[6.866s] writing requirements to ../../build/encoder/encoder.egg-info/requires.txt
+[6.866s] writing top-level names to ../../build/encoder/encoder.egg-info/top_level.txt
+[6.873s] reading manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[6.877s] writing manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[6.878s] running build
+[6.878s] running build_py
+[6.879s] running install
+[6.880s] running install_lib
+[6.885s] running install_data
+[6.886s] running install_egg_info
+[6.893s] removing '/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder-0.0.0-py3.10.egg-info' (and everything under it)
+[6.894s] Copying ../../build/encoder/encoder.egg-info to /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder-0.0.0-py3.10.egg-info
+[6.897s] running install_scripts
+[6.983s] Installing encoder_imu_node script to /home/davinci-mini/racecar/install/encoder/lib/encoder
+[6.983s] Installing encoder_node script to /home/davinci-mini/racecar/install/encoder/lib/encoder
+[6.984s] Installing test script to /home/davinci-mini/racecar/install/encoder/lib/encoder
+[6.985s] writing list of installed files to '/home/davinci-mini/racecar/build/encoder/install.log'
+[7.126s] Invoked command in '/home/davinci-mini/racecar/src/encoder' returned '0': PYTHONPATH=/home/davinci-mini/racecar/build/encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder build --build-base /home/davinci-mini/racecar/build/encoder/build install --record /home/davinci-mini/racecar/build/encoder/install.log --single-version-externally-managed install_data

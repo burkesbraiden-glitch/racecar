@@ -1,0 +1,693 @@
+[0.576s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--parallel-workers', '8']
+[0.577s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xe7ffddf16e00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xe7ffde1041c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xe7ffde1041c0>>)
+[1.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.281s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/davinci-mini/racecar'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extensions ['ignore', 'ignore_ament_install']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extension 'ignore'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extension 'ignore_ament_install'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extensions ['colcon_pkg']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extension 'colcon_pkg'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extensions ['colcon_meta']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extension 'colcon_meta'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extensions ['ros']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extension 'ros'
+[1.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/encoder' with type 'ros.ament_python' and name 'encoder'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/hipnuc_imu) by extensions ['ignore', 'ignore_ament_install']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/hipnuc_imu) by extension 'ignore'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/hipnuc_imu) by extension 'ignore_ament_install'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/hipnuc_imu) by extensions ['colcon_pkg']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/hipnuc_imu) by extension 'colcon_pkg'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/hipnuc_imu) by extensions ['colcon_meta']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/hipnuc_imu) by extension 'colcon_meta'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/hipnuc_imu) by extensions ['ros']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/hipnuc_imu) by extension 'ros'
+[1.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hipnuc_imu' with type 'ros.ament_cmake' and name 'hipnuc_imu'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'ignore'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'ignore_ament_install'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['colcon_pkg']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'colcon_pkg'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['colcon_meta']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'colcon_meta'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['ros']
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'ros'
+[1.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lslidar_driver' with type 'ros.ament_cmake' and name 'lslidar_driver'
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'ignore'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'ignore_ament_install'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['colcon_pkg']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'colcon_pkg'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['colcon_meta']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'colcon_meta'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['ros']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'ros'
+[1.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lslidar_msgs' with type 'ros.ament_cmake' and name 'lslidar_msgs'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_waypoint_cycle) by extensions ['ignore', 'ignore_ament_install']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_waypoint_cycle) by extension 'ignore'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_waypoint_cycle) by extension 'ignore_ament_install'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_waypoint_cycle) by extensions ['colcon_pkg']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_waypoint_cycle) by extension 'colcon_pkg'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_waypoint_cycle) by extensions ['colcon_meta']
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_waypoint_cycle) by extension 'colcon_meta'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_waypoint_cycle) by extensions ['ros']
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_waypoint_cycle) by extension 'ros'
+[1.373s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_waypoint_cycle' with type 'ros.ament_python' and name 'nav2_waypoint_cycle'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ignore'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ignore_ament_install'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['colcon_pkg']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'colcon_pkg'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['colcon_meta']
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'colcon_meta'
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['ros']
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ros'
+[1.378s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openslam_gmapping' with type 'ros.ament_cmake' and name 'openslam_gmapping'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extensions ['ignore', 'ignore_ament_install']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extension 'ignore'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extension 'ignore_ament_install'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extensions ['colcon_pkg']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extension 'colcon_pkg'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extensions ['colcon_meta']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extension 'colcon_meta'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extensions ['ros']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extension 'ros'
+[1.386s] DEBUG:colcon.colcon_core.package_identification:Package 'src/racecar' with type 'ros.ament_cmake' and name 'racecar'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_driver) by extension 'ignore'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_driver) by extension 'ignore_ament_install'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_driver) by extensions ['colcon_pkg']
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_driver) by extension 'colcon_pkg'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_driver) by extensions ['colcon_meta']
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_driver) by extension 'colcon_meta'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_driver) by extensions ['ros']
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_driver) by extension 'ros'
+[1.391s] DEBUG:colcon.colcon_core.package_identification:Package 'src/racecar_driver' with type 'ros.ament_cmake' and name 'racecar_driver'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-foxy) by extensions ['ignore', 'ignore_ament_install']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-foxy) by extension 'ignore'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-foxy) by extension 'ignore_ament_install'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-foxy) by extensions ['colcon_pkg']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-foxy) by extension 'colcon_pkg'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-foxy) by extensions ['colcon_meta']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-foxy) by extension 'colcon_meta'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-foxy) by extensions ['ros']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-foxy) by extension 'ros'
+[1.396s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial-foxy' with type 'ros.ament_cmake' and name 'serial'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore_ament_install'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_pkg']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_pkg'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_meta']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_meta'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ros']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ros'
+[1.403s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping' with type 'ros.ament_cmake' and name 'slam_gmapping'
+[1.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.565s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 313 installed packages in /opt/ros/humble
+[1.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.829s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_args' from command line to 'None'
+[1.830s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_target' from command line to 'None'
+[1.830s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.830s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_clean_cache' from command line to 'False'
+[1.830s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_clean_first' from command line to 'False'
+[1.830s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_force_configure' from command line to 'False'
+[1.830s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'ament_cmake_args' from command line to 'None'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'catkin_cmake_args' from command line to 'None'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.831s] DEBUG:colcon.colcon_core.verb:Building package 'encoder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davinci-mini/racecar/build/encoder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davinci-mini/racecar/install/encoder', 'merge_install': False, 'path': '/home/davinci-mini/racecar/src/encoder', 'symlink_install': True, 'test_result_base': None}
+[1.832s] Level 5:colcon.colcon_core.verb:set package 'hipnuc_imu' build argument 'cmake_args' from command line to 'None'
+[1.832s] Level 5:colcon.colcon_core.verb:set package 'hipnuc_imu' build argument 'cmake_target' from command line to 'None'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'hipnuc_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'hipnuc_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'hipnuc_imu' build argument 'cmake_clean_first' from command line to 'False'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'hipnuc_imu' build argument 'cmake_force_configure' from command line to 'False'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'hipnuc_imu' build argument 'ament_cmake_args' from command line to 'None'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'hipnuc_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'hipnuc_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.833s] DEBUG:colcon.colcon_core.verb:Building package 'hipnuc_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davinci-mini/racecar/build/hipnuc_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davinci-mini/racecar/install/hipnuc_imu', 'merge_install': False, 'path': '/home/davinci-mini/racecar/src/hipnuc_imu', 'symlink_install': True, 'test_result_base': None}
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_args' from command line to 'None'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target' from command line to 'None'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.836s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davinci-mini/racecar/build/lslidar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davinci-mini/racecar/install/lslidar_msgs', 'merge_install': False, 'path': '/home/davinci-mini/racecar/src/lslidar_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'nav2_waypoint_cycle' build argument 'cmake_args' from command line to 'None'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'nav2_waypoint_cycle' build argument 'cmake_target' from command line to 'None'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'nav2_waypoint_cycle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'nav2_waypoint_cycle' build argument 'cmake_clean_cache' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'nav2_waypoint_cycle' build argument 'cmake_clean_first' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'nav2_waypoint_cycle' build argument 'cmake_force_configure' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'nav2_waypoint_cycle' build argument 'ament_cmake_args' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'nav2_waypoint_cycle' build argument 'catkin_cmake_args' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'nav2_waypoint_cycle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.838s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_waypoint_cycle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davinci-mini/racecar/build/nav2_waypoint_cycle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davinci-mini/racecar/install/nav2_waypoint_cycle', 'merge_install': False, 'path': '/home/davinci-mini/racecar/src/nav2_waypoint_cycle', 'symlink_install': True, 'test_result_base': None}
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_args' from command line to 'None'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target' from command line to 'None'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.841s] DEBUG:colcon.colcon_core.verb:Building package 'openslam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davinci-mini/racecar/build/openslam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davinci-mini/racecar/install/openslam_gmapping', 'merge_install': False, 'path': '/home/davinci-mini/racecar/src/openslam_gmapping', 'symlink_install': True, 'test_result_base': None}
+[1.842s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_args' from command line to 'None'
+[1.842s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_target' from command line to 'None'
+[1.842s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.842s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_clean_cache' from command line to 'False'
+[1.843s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_clean_first' from command line to 'False'
+[1.843s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_force_configure' from command line to 'False'
+[1.843s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'ament_cmake_args' from command line to 'None'
+[1.843s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'catkin_cmake_args' from command line to 'None'
+[1.843s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.843s] DEBUG:colcon.colcon_core.verb:Building package 'racecar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davinci-mini/racecar/build/racecar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davinci-mini/racecar/install/racecar', 'merge_install': False, 'path': '/home/davinci-mini/racecar/src/racecar', 'symlink_install': True, 'test_result_base': None}
+[1.844s] Level 5:colcon.colcon_core.verb:set package 'racecar_driver' build argument 'cmake_args' from command line to 'None'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'racecar_driver' build argument 'cmake_target' from command line to 'None'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'racecar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'racecar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'racecar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'racecar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'racecar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'racecar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'racecar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.845s] DEBUG:colcon.colcon_core.verb:Building package 'racecar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davinci-mini/racecar/build/racecar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davinci-mini/racecar/install/racecar_driver', 'merge_install': False, 'path': '/home/davinci-mini/racecar/src/racecar_driver', 'symlink_install': True, 'test_result_base': None}
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.848s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.848s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.848s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.848s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davinci-mini/racecar/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davinci-mini/racecar/install/serial', 'merge_install': False, 'path': '/home/davinci-mini/racecar/src/serial-foxy', 'symlink_install': True, 'test_result_base': None}
+[1.849s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_args' from command line to 'None'
+[1.849s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target' from command line to 'None'
+[1.849s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.850s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.850s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.850s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.850s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.850s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.850s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.850s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davinci-mini/racecar/build/lslidar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davinci-mini/racecar/install/lslidar_driver', 'merge_install': False, 'path': '/home/davinci-mini/racecar/src/lslidar_driver', 'symlink_install': True, 'test_result_base': None}
+[1.852s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_args' from command line to 'None'
+[1.852s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target' from command line to 'None'
+[1.852s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.852s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[1.852s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[1.852s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[1.852s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[1.852s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[1.852s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.853s] DEBUG:colcon.colcon_core.verb:Building package 'slam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davinci-mini/racecar/build/slam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davinci-mini/racecar/install/slam_gmapping', 'merge_install': False, 'path': '/home/davinci-mini/racecar/src/slam_gmapping', 'symlink_install': True, 'test_result_base': None}
+[1.853s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.857s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.858s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/davinci-mini/racecar/src/lslidar_msgs' with build type 'ament_cmake'
+[1.858s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/davinci-mini/racecar/src/lslidar_msgs'
+[1.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.873s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.883s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/davinci-mini/racecar/src/openslam_gmapping' with build type 'ament_cmake'
+[1.883s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/davinci-mini/racecar/src/openslam_gmapping'
+[1.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.893s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/davinci-mini/racecar/src/encoder' with build type 'ament_python'
+[1.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder', 'ament_prefix_path')
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/encoder/share/encoder/hook/ament_prefix_path.ps1'
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/encoder/share/encoder/hook/ament_prefix_path.dsv'
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/encoder/share/encoder/hook/ament_prefix_path.sh'
+[1.903s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.903s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.911s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/davinci-mini/racecar/src/hipnuc_imu' with build type 'ament_cmake'
+[1.911s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/davinci-mini/racecar/src/hipnuc_imu'
+[1.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.913s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.922s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/davinci-mini/racecar/src/nav2_waypoint_cycle' with build type 'ament_python'
+[1.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_waypoint_cycle', 'ament_prefix_path')
+[1.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle/hook/ament_prefix_path.ps1'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle/hook/ament_prefix_path.dsv'
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle/hook/ament_prefix_path.sh'
+[1.929s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.937s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/davinci-mini/racecar/src/racecar' with build type 'ament_cmake'
+[1.938s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/davinci-mini/racecar/src/racecar'
+[1.939s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.939s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.948s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/davinci-mini/racecar/src/racecar_driver' with build type 'ament_cmake'
+[1.948s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/davinci-mini/racecar/src/racecar_driver'
+[1.949s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.949s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.959s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/davinci-mini/racecar/src/serial-foxy' with build type 'ament_cmake'
+[1.959s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/davinci-mini/racecar/src/serial-foxy'
+[1.960s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.960s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/lslidar_msgs -- -j3 -l3
+[2.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/openslam_gmapping -- -j3 -l3
+[3.143s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/davinci-mini/racecar/src/encoder'
+[3.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/hipnuc_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/hipnuc_imu -- -j3 -l3
+[4.354s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/davinci-mini/racecar/src/nav2_waypoint_cycle'
+[4.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/racecar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/racecar -- -j3 -l3
+[4.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/racecar_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/racecar_driver -- -j3 -l3
+[4.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/serial -- -j3 -l3
+[4.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/hipnuc_imu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/hipnuc_imu -- -j3 -l3
+[4.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/hipnuc_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/hipnuc_imu
+[4.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/openslam_gmapping -- -j3 -l3
+[4.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/openslam_gmapping
+[4.949s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hipnuc_imu)
+[4.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/serial -- -j3 -l3
+[4.981s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu' for CMake module files
+[4.983s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu' for CMake config files
+[4.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('hipnuc_imu', 'cmake_prefix_path')
+[4.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/hook/cmake_prefix_path.ps1'
+[4.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/serial
+[4.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/hipnuc_imu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/hipnuc_imu
+[4.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/hook/cmake_prefix_path.dsv'
+[4.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/hook/cmake_prefix_path.sh'
+[5.003s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu/lib'
+[5.004s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu/bin'
+[5.004s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu/lib/pkgconfig/hipnuc_imu.pc'
+[5.011s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu/lib/python3.10/site-packages'
+[5.020s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu/bin'
+[5.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.ps1'
+[5.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.dsv'
+[5.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.sh'
+[5.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.bash'
+[5.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.zsh'
+[5.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/hipnuc_imu/share/colcon-core/packages/hipnuc_imu)
+[5.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hipnuc_imu)
+[5.072s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu' for CMake module files
+[5.085s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu' for CMake config files
+[5.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('hipnuc_imu', 'cmake_prefix_path')
+[5.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/hook/cmake_prefix_path.ps1'
+[5.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/hook/cmake_prefix_path.dsv'
+[5.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/hook/cmake_prefix_path.sh'
+[5.103s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu/lib'
+[5.103s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu/bin'
+[5.104s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu/lib/pkgconfig/hipnuc_imu.pc'
+[5.105s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu/lib/python3.10/site-packages'
+[5.110s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/hipnuc_imu/bin'
+[5.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.ps1'
+[5.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.dsv'
+[5.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.sh'
+[5.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.bash'
+[5.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.zsh'
+[5.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/hipnuc_imu/share/colcon-core/packages/hipnuc_imu)
+[5.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/lslidar_msgs -- -j3 -l3
+[5.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/lslidar_msgs
+[5.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/racecar_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/racecar_driver -- -j3 -l3
+[5.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/racecar_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/racecar_driver
+[5.196s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[5.197s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping' for CMake module files
+[5.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/openslam_gmapping
+[5.207s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping' for CMake config files
+[5.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[5.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[5.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[5.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[5.232s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping/lib'
+[5.233s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping/bin'
+[5.233s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[5.238s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping/lib/python3.10/site-packages'
+[5.239s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping/bin'
+[5.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[5.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[5.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[5.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[5.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[5.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[5.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[5.303s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping' for CMake module files
+[5.317s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping' for CMake config files
+[5.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[5.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[5.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[5.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[5.355s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping/lib'
+[5.356s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping/bin'
+[5.356s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[5.357s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping/lib/python3.10/site-packages'
+[5.357s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/openslam_gmapping/bin'
+[5.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[5.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[5.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[5.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[5.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[5.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[5.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[5.410s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial' for CMake module files
+[5.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/serial
+[5.412s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial' for CMake config files
+[5.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[5.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[5.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[5.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[5.439s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial/lib'
+[5.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'ld_library_path_lib')
+[5.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/serial/share/serial/hook/ld_library_path_lib.ps1'
+[5.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/serial/share/serial/hook/ld_library_path_lib.dsv'
+[5.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/serial/share/serial/hook/ld_library_path_lib.sh'
+[5.462s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial/bin'
+[5.463s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial/lib/pkgconfig/serial.pc'
+[5.464s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial/lib/python3.10/site-packages'
+[5.465s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial/bin'
+[5.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/serial/share/serial/package.ps1'
+[5.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/serial/share/serial/package.dsv'
+[5.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/serial/share/serial/package.sh'
+[5.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/serial/share/serial/package.bash'
+[5.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/serial/share/serial/package.zsh'
+[5.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/serial/share/colcon-core/packages/serial)
+[5.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[5.504s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial' for CMake module files
+[5.505s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial' for CMake config files
+[5.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[5.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[5.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[5.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[5.530s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial/lib'
+[5.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'ld_library_path_lib')
+[5.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/serial/share/serial/hook/ld_library_path_lib.ps1'
+[5.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/serial/share/serial/hook/ld_library_path_lib.dsv'
+[5.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/serial/share/serial/hook/ld_library_path_lib.sh'
+[5.540s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial/bin'
+[5.541s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial/lib/pkgconfig/serial.pc'
+[5.542s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial/lib/python3.10/site-packages'
+[5.547s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/serial/bin'
+[5.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/serial/share/serial/package.ps1'
+[5.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/serial/share/serial/package.dsv'
+[5.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/serial/share/serial/package.sh'
+[5.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/serial/share/serial/package.bash'
+[5.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/serial/share/serial/package.zsh'
+[5.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/serial/share/colcon-core/packages/serial)
+[5.577s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/davinci-mini/racecar/src/slam_gmapping' with build type 'ament_cmake'
+[5.578s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/davinci-mini/racecar/src/slam_gmapping'
+[5.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.580s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.605s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[5.607s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs' for CMake module files
+[5.610s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs' for CMake config files
+[5.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/lslidar_msgs
+[5.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[5.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[5.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[5.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[5.625s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs/lib'
+[5.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[5.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[5.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[5.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[5.632s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs/bin'
+[5.632s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[5.633s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs/lib/python3.10/site-packages'
+[5.634s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs/bin'
+[5.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[5.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[5.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[5.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[5.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[5.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[5.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[5.646s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs' for CMake module files
+[5.648s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs' for CMake config files
+[5.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[5.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[5.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[5.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[5.658s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs/lib'
+[5.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[5.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[5.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[5.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[5.663s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs/bin'
+[5.664s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[5.665s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs/lib/python3.10/site-packages'
+[5.665s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_msgs/bin'
+[5.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[5.669s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[5.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[5.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[5.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[5.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[5.677s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_driver)
+[5.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/racecar_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/racecar_driver
+[5.681s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver' for CMake module files
+[5.682s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver' for CMake config files
+[5.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_driver', 'cmake_prefix_path')
+[5.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/hook/cmake_prefix_path.ps1'
+[5.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/hook/cmake_prefix_path.dsv'
+[5.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/hook/cmake_prefix_path.sh'
+[5.689s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver/lib'
+[5.690s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver/bin'
+[5.690s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver/lib/pkgconfig/racecar_driver.pc'
+[5.691s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver/lib/python3.10/site-packages'
+[5.692s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver/bin'
+[5.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.ps1'
+[5.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.dsv'
+[5.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.sh'
+[5.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.bash'
+[5.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.zsh'
+[5.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/racecar_driver/share/colcon-core/packages/racecar_driver)
+[5.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_driver)
+[5.704s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver' for CMake module files
+[5.705s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver' for CMake config files
+[5.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_driver', 'cmake_prefix_path')
+[5.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/hook/cmake_prefix_path.ps1'
+[5.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/hook/cmake_prefix_path.dsv'
+[5.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/hook/cmake_prefix_path.sh'
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver/lib'
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver/bin'
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver/lib/pkgconfig/racecar_driver.pc'
+[5.714s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver/lib/python3.10/site-packages'
+[5.715s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar_driver/bin'
+[5.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.ps1'
+[5.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.dsv'
+[5.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.sh'
+[5.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.bash'
+[5.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.zsh'
+[5.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/racecar_driver/share/colcon-core/packages/racecar_driver)
+[5.730s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/davinci-mini/racecar/src/lslidar_driver' with build type 'ament_cmake'
+[5.731s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/davinci-mini/racecar/src/lslidar_driver'
+[5.732s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/slam_gmapping': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/davinci-mini/racecar/build/slam_gmapping -- -j3 -l3
+[5.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/lslidar_driver': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/davinci-mini/racecar/build/lslidar_driver -- -j3 -l3
+[6.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/davinci-mini/racecar/build/slam_gmapping -- -j3 -l3
+[6.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/slam_gmapping': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/davinci-mini/racecar/build/slam_gmapping
+[6.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[6.444s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping' for CMake module files
+[6.446s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping' for CMake config files
+[6.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[6.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[6.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/davinci-mini/racecar/build/slam_gmapping
+[6.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[6.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[6.456s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping/lib'
+[6.458s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping/bin'
+[6.459s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[6.460s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping/lib/python3.10/site-packages'
+[6.460s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping/bin'
+[6.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[6.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[6.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/package.sh'
+[6.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/package.bash'
+[6.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[6.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[6.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[6.491s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping' for CMake module files
+[6.493s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping' for CMake config files
+[6.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[6.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[6.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[6.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[6.500s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping/lib'
+[6.501s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping/bin'
+[6.501s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[6.502s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping/lib/python3.10/site-packages'
+[6.503s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/slam_gmapping/bin'
+[6.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[6.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[6.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/package.sh'
+[6.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/package.bash'
+[6.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[6.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[7.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/encoder': PYTHONPATH=/home/davinci-mini/racecar/build/encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davinci-mini/racecar/build/encoder/build --no-deps symlink_data
+[7.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/nav2_waypoint_cycle': PYTHONPATH=/home/davinci-mini/racecar/build/nav2_waypoint_cycle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davinci-mini/racecar/build/nav2_waypoint_cycle/build --no-deps symlink_data
+[7.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/racecar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/racecar -- -j3 -l3
+[7.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davinci-mini/racecar/build/racecar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/racecar
+[9.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder', 'pythonpath_develop')
+[9.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/build/encoder/share/encoder/hook/pythonpath_develop.ps1'
+[9.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/encoder' returned '0': PYTHONPATH=/home/davinci-mini/racecar/build/encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davinci-mini/racecar/build/encoder/build --no-deps symlink_data
+[9.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/build/encoder/share/encoder/hook/pythonpath_develop.dsv'
+[9.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/build/encoder/share/encoder/hook/pythonpath_develop.sh'
+[9.979s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/encoder' for CMake module files
+[9.981s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/encoder' for CMake config files
+[9.983s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/encoder/lib'
+[9.983s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/encoder/bin'
+[9.983s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/encoder/lib/pkgconfig/encoder.pc'
+[9.984s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages'
+[9.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder', 'pythonpath')
+[9.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/encoder/share/encoder/hook/pythonpath.ps1'
+[10.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/encoder/share/encoder/hook/pythonpath.dsv'
+[10.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/encoder/share/encoder/hook/pythonpath.sh'
+[10.004s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/encoder/bin'
+[10.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(encoder)
+[10.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/encoder/share/encoder/package.ps1'
+[10.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/encoder/share/encoder/package.dsv'
+[10.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/encoder/share/encoder/package.sh'
+[10.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/encoder/share/encoder/package.bash'
+[10.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/encoder/share/encoder/package.zsh'
+[10.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/encoder/share/colcon-core/packages/encoder)
+[10.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_waypoint_cycle', 'pythonpath_develop')
+[10.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/build/nav2_waypoint_cycle/share/nav2_waypoint_cycle/hook/pythonpath_develop.ps1'
+[10.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/nav2_waypoint_cycle' returned '0': PYTHONPATH=/home/davinci-mini/racecar/build/nav2_waypoint_cycle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davinci-mini/racecar/build/nav2_waypoint_cycle/build --no-deps symlink_data
+[10.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/build/nav2_waypoint_cycle/share/nav2_waypoint_cycle/hook/pythonpath_develop.dsv'
+[10.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/build/nav2_waypoint_cycle/share/nav2_waypoint_cycle/hook/pythonpath_develop.sh'
+[10.456s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/nav2_waypoint_cycle' for CMake module files
+[10.457s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/nav2_waypoint_cycle' for CMake config files
+[10.459s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib'
+[10.459s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/bin'
+[10.460s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/pkgconfig/nav2_waypoint_cycle.pc'
+[10.461s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/python3.10/site-packages'
+[10.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_waypoint_cycle', 'pythonpath')
+[10.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle/hook/pythonpath.ps1'
+[10.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle/hook/pythonpath.dsv'
+[10.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle/hook/pythonpath.sh'
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/bin'
+[10.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_waypoint_cycle)
+[10.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle/package.ps1'
+[10.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle/package.dsv'
+[10.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle/package.sh'
+[10.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle/package.bash'
+[10.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle/package.zsh'
+[10.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/nav2_waypoint_cycle/share/colcon-core/packages/nav2_waypoint_cycle)
+[10.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar)
+[10.482s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar' for CMake module files
+[10.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/racecar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/racecar
+[10.485s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar' for CMake config files
+[10.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar', 'cmake_prefix_path')
+[10.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/racecar/share/racecar/hook/cmake_prefix_path.ps1'
+[10.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/racecar/share/racecar/hook/cmake_prefix_path.dsv'
+[10.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/racecar/share/racecar/hook/cmake_prefix_path.sh'
+[10.494s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar/lib'
+[10.494s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar/bin'
+[10.494s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar/lib/pkgconfig/racecar.pc'
+[10.495s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar/lib/python3.10/site-packages'
+[10.496s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar/bin'
+[10.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar/share/racecar/package.ps1'
+[10.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/racecar/share/racecar/package.dsv'
+[10.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar/share/racecar/package.sh'
+[10.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar/share/racecar/package.bash'
+[10.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar/share/racecar/package.zsh'
+[10.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/racecar/share/colcon-core/packages/racecar)
+[10.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar)
+[10.510s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar' for CMake module files
+[10.512s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar' for CMake config files
+[10.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar', 'cmake_prefix_path')
+[10.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/racecar/share/racecar/hook/cmake_prefix_path.ps1'
+[10.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/racecar/share/racecar/hook/cmake_prefix_path.dsv'
+[10.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/racecar/share/racecar/hook/cmake_prefix_path.sh'
+[10.519s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar/lib'
+[10.519s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar/bin'
+[10.519s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar/lib/pkgconfig/racecar.pc'
+[10.520s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar/lib/python3.10/site-packages'
+[10.521s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/racecar/bin'
+[10.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar/share/racecar/package.ps1'
+[10.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/racecar/share/racecar/package.dsv'
+[10.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar/share/racecar/package.sh'
+[10.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar/share/racecar/package.bash'
+[10.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/racecar/share/racecar/package.zsh'
+[10.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/racecar/share/colcon-core/packages/racecar)
+[15.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davinci-mini/racecar/build/lslidar_driver' returned '2': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/davinci-mini/racecar/build/lslidar_driver -- -j3 -l3
+[15.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[15.201s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_driver' for CMake module files
+[15.203s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_driver' for CMake config files
+[15.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[15.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[15.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[15.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[15.217s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_driver/lib'
+[15.217s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_driver/bin'
+[15.218s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[15.219s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_driver/lib/python3.10/site-packages'
+[15.219s] Level 1:colcon.colcon_core.environment:checking '/home/davinci-mini/racecar/install/lslidar_driver/bin'
+[15.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[15.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[15.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/package.sh'
+[15.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/package.bash'
+[15.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[15.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davinci-mini/racecar/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[15.248s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[15.254s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.281s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[40.286s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[40.287s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[40.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davinci-mini/racecar/install/local_setup.ps1'
+[40.292s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/davinci-mini/racecar/install/_local_setup_util_ps1.py'
+[40.297s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davinci-mini/racecar/install/setup.ps1'
+[40.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davinci-mini/racecar/install/local_setup.sh'
+[40.303s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/davinci-mini/racecar/install/_local_setup_util_sh.py'
+[40.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davinci-mini/racecar/install/setup.sh'
+[40.309s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davinci-mini/racecar/install/local_setup.bash'
+[40.311s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davinci-mini/racecar/install/setup.bash'
+[40.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davinci-mini/racecar/install/local_setup.zsh'
+[40.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davinci-mini/racecar/install/setup.zsh'

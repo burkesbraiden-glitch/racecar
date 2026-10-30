@@ -1,0 +1,29 @@
+[2.673s] Invoking command in '/home/davinci-mini/racecar/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/serial -- -j3 -l3
+[3.270s] [100%] Built target serial
+[3.544s] Invoked command in '/home/davinci-mini/racecar/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/serial -- -j3 -l3
+[3.548s] Invoking command in '/home/davinci-mini/racecar/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/serial
+[3.598s] -- Install configuration: ""
+[3.606s] -- Execute custom install script
+[3.607s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/environment/library_path.sh
+[3.607s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/environment/library_path.dsv
+[3.608s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/lib/libserial.so
+[3.615s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/include/serial/serial.h
+[3.615s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/include/serial/v8stdint.h
+[3.621s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.622s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.622s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.623s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.623s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/environment/path.sh
+[3.624s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/environment/path.dsv
+[3.624s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/local_setup.bash
+[3.631s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/local_setup.sh
+[3.632s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/local_setup.zsh
+[3.632s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/local_setup.dsv
+[3.633s] -- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/package.dsv
+[3.716s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/ament_index/resource_index/packages/serial
+[3.717s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.718s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.718s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/cmake/serialConfig.cmake
+[3.718s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.719s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/serial/share/serial/package.xml
+[3.733s] Invoked command in '/home/davinci-mini/racecar/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/serial

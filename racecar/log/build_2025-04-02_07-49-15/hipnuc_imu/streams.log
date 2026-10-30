@@ -1,0 +1,70 @@
+[1.233s] Invoking command in '/home/davinci-mini/racecar/build/hipnuc_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/hipnuc_imu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/hipnuc_imu
+[2.793s] -- The C compiler identification is GNU 11.3.0
+[2.793s] -- The CXX compiler identification is GNU 11.3.0
+[2.793s] -- Detecting C compiler ABI info
+[2.794s] -- Detecting C compiler ABI info - done
+[2.794s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.794s] -- Detecting C compile features
+[2.795s] -- Detecting C compile features - done
+[2.795s] -- Detecting CXX compiler ABI info
+[3.418s] -- Detecting CXX compiler ABI info - done
+[3.499s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.501s] -- Detecting CXX compile features
+[3.503s] -- Detecting CXX compile features - done
+[3.521s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.586s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.578s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.916s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[7.397s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.466s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.598s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.023s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.762s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.783s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.862s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.119s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.585s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.699s] -- Looking for pthread.h
+[11.449s] -- Looking for pthread.h - found
+[11.452s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.095s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.099s] -- Found Threads: TRUE  
+[12.817s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[13.146s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[13.363s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.977s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.982s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.982s] -- Configured cppcheck include dirs: 
+[13.983s] -- Configured cppcheck exclude dirs and/or files: 
+[14.004s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.004s] -- Configured cpplint exclude dirs and/or files: 
+[14.006s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.009s] -- Added test 'lint_cmake' to check CMake code style
+[14.017s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.028s] -- Added test 'uncrustify' to check C / C++ code style
+[14.029s] -- Configured uncrustify additional arguments: 
+[14.043s] -- Added test 'xmllint' to check XML markup files
+[14.052s] -- Configuring done
+[14.175s] -- Generating done
+[14.220s] -- Build files have been written to: /home/davinci-mini/racecar/build/hipnuc_imu
+[14.317s] Invoked command in '/home/davinci-mini/racecar/build/hipnuc_imu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/hipnuc_imu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/hipnuc_imu
+[14.319s] Invoking command in '/home/davinci-mini/racecar/build/hipnuc_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/hipnuc_imu -- -j3 -l3
+[15.447s] [ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/serial_port.cpp.o[0m
+[40.230s] [ 28%] [32mBuilding C object CMakeFiles/talker.dir/src/ch_serial.c.o[0m
+[40.300s] [01m[K/home/davinci-mini/racecar/src/hipnuc_imu/src/ch_serial.c:[m[K In function ‘[01m[Kparse_data[m[K’:
+[40.301s] [01m[K/home/davinci-mini/racecar/src/hipnuc_imu/src/ch_serial.c:98:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[40.301s]    98 |     int ofs = 0, [01;35m[Ki[m[K = 0;
+[40.301s]       |                  [01;35m[K^[m[K
+[40.414s] [ 42%] [32m[1mLinking CXX executable talker[0m
+[41.541s] [ 42%] Built target talker
+[41.616s] [ 57%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sub_spec.cpp.o[0m
+[54.152s] [01m[K/home/davinci-mini/racecar/src/hipnuc_imu/src/sub_spec.cpp:[m[K In function ‘[01m[Kvoid topic_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[54.152s] [01m[K/home/davinci-mini/racecar/src/hipnuc_imu/src/sub_spec.cpp:12:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[54.153s]    12 | void topic_callback([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr msg[m[K)
+[54.153s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[79.803s] [ 71%] [32m[1mLinking CXX executable listener[0m
+[81.533s] [ 71%] Built target listener
+[81.583s] [ 85%] [32mBuilding CXX object CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o[0m
+[118.500s] [100%] [32m[1mLinking CXX executable imu_filter_node[0m
+[120.424s] [100%] Built target imu_filter_node

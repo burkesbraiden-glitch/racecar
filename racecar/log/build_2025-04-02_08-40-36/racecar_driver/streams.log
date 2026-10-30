@@ -1,0 +1,23 @@
+[2.432s] Invoking command in '/home/davinci-mini/racecar/build/racecar_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/racecar_driver -- -j3 -l3
+[3.039s] [100%] Built target racecar_driver_node
+[3.206s] Invoked command in '/home/davinci-mini/racecar/build/racecar_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/racecar_driver -- -j3 -l3
+[3.212s] Invoking command in '/home/davinci-mini/racecar/build/racecar_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/racecar_driver
+[3.256s] -- Install configuration: ""
+[3.256s] -- Execute custom install script
+[3.263s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/lib/racecar_driver/racecar_driver_node
+[3.263s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/ament_index/resource_index/package_run_dependencies/racecar_driver
+[3.263s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/ament_index/resource_index/parent_prefix_path/racecar_driver
+[3.264s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/environment/ament_prefix_path.sh
+[3.264s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/environment/ament_prefix_path.dsv
+[3.264s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/environment/path.sh
+[3.264s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/environment/path.dsv
+[3.265s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/local_setup.bash
+[3.265s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/local_setup.sh
+[3.265s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/local_setup.zsh
+[3.265s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/local_setup.dsv
+[3.266s] -- Symlinking: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.dsv
+[3.432s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/ament_index/resource_index/packages/racecar_driver
+[3.432s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/cmake/racecar_driverConfig.cmake
+[3.432s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/cmake/racecar_driverConfig-version.cmake
+[3.432s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar_driver/share/racecar_driver/package.xml
+[3.731s] Invoked command in '/home/davinci-mini/racecar/build/racecar_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/racecar_driver

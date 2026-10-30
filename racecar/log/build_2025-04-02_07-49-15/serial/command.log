@@ -1,0 +1,3 @@
+Invoking command in '/home/davinci-mini/racecar/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/serial-foxy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/serial
+Invoked command in '/home/davinci-mini/racecar/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/serial-foxy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/serial
+Invoking command in '/home/davinci-mini/racecar/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/serial -- -j3 -l3

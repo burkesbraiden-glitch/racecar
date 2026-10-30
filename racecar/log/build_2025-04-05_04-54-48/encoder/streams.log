@@ -1,0 +1,19 @@
+[13.089s] Invoking command in '/home/davinci-mini/racecar/build/encoder': PYTHONPATH=/home/davinci-mini/racecar/build/encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davinci-mini/racecar/build/encoder/build --no-deps symlink_data
+[15.395s] running develop
+[16.361s] running egg_info
+[16.361s] writing encoder.egg-info/PKG-INFO
+[16.366s] writing dependency_links to encoder.egg-info/dependency_links.txt
+[16.369s] writing entry points to encoder.egg-info/entry_points.txt
+[16.369s] writing requirements to encoder.egg-info/requires.txt
+[16.369s] writing top-level names to encoder.egg-info/top_level.txt
+[16.376s] reading manifest file 'encoder.egg-info/SOURCES.txt'
+[16.379s] writing manifest file 'encoder.egg-info/SOURCES.txt'
+[16.389s] running build_ext
+[16.390s] Creating /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder.egg-link (link to .)
+[16.393s] Installing encoder_imu_node script to /home/davinci-mini/racecar/install/encoder/lib/encoder
+[16.393s] Installing encoder_node script to /home/davinci-mini/racecar/install/encoder/lib/encoder
+[16.395s] Installing test script to /home/davinci-mini/racecar/install/encoder/lib/encoder
+[16.395s] 
+[16.395s] Installed /home/davinci-mini/racecar/build/encoder
+[16.398s] running symlink_data
+[16.568s] Invoked command in '/home/davinci-mini/racecar/build/encoder' returned '0': PYTHONPATH=/home/davinci-mini/racecar/build/encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davinci-mini/racecar/build/encoder/build --no-deps symlink_data

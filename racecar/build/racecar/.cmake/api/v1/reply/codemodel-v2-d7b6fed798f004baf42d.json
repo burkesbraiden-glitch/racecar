@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7b98c330b59c06e846a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "racecar",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_racecar_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_racecar_egg-346bd5af02d53026216f.json",
+					"name" : "ament_cmake_python_build_racecar_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_racecar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_racecar-296a3802d9c1eb29ceec.json",
+					"name" : "ament_cmake_python_symlink_racecar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_control_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_control_all-0ae83b60937ddcbb4f93.json",
+					"name" : "car_control_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laser_2d_new::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laser_2d_new-4109212bf5ee876b69eb.json",
+					"name" : "laser_2d_new",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_car_control_new::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_car_control_new-e6addc19b80d38a6b5af.json",
+					"name" : "my_car_control_new",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "racecar_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-racecar_uninstall-ebc2ecc250bbc72d4cb3.json",
+					"name" : "racecar_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scan_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scan_node-da7d93b61f415d9842a2.json",
+					"name" : "scan_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b8b92376f138f0927e5a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/davinci-mini/racecar/build/racecar",
+		"source" : "/home/davinci-mini/racecar/src/racecar"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

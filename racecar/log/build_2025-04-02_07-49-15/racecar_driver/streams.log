@@ -1,0 +1,41 @@
+[2.678s] Invoking command in '/home/davinci-mini/racecar/build/racecar_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/racecar_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/racecar_driver
+[5.494s] -- The C compiler identification is GNU 11.3.0
+[5.494s] -- The CXX compiler identification is GNU 11.3.0
+[5.495s] -- Detecting C compiler ABI info
+[5.495s] -- Detecting C compiler ABI info - done
+[5.495s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.496s] -- Detecting C compile features
+[5.496s] -- Detecting C compile features - done
+[5.496s] -- Detecting CXX compiler ABI info
+[5.874s] -- Detecting CXX compiler ABI info - done
+[5.958s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.959s] -- Detecting CXX compile features
+[5.973s] -- Detecting CXX compile features - done
+[6.000s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.476s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.419s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.628s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[10.133s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.183s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.227s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.457s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.841s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.858s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.598s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.836s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.223s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.320s] -- Looking for pthread.h
+[13.001s] -- Looking for pthread.h - found
+[13.002s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.757s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.761s] -- Found Threads: TRUE  
+[14.245s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[15.176s] -- Configuring done
+[15.246s] -- Generating done
+[15.267s] -- Build files have been written to: /home/davinci-mini/racecar/build/racecar_driver
+[15.396s] Invoked command in '/home/davinci-mini/racecar/build/racecar_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/racecar_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/racecar_driver
+[15.397s] Invoking command in '/home/davinci-mini/racecar/build/racecar_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/racecar_driver -- -j3 -l3
+[17.245s] [ 50%] [32mBuilding CXX object CMakeFiles/racecar_driver_node.dir/src/racecar_driver_node.cpp.o[0m
+[62.444s] [100%] [32m[1mLinking CXX executable racecar_driver_node[0m
+[64.534s] [100%] Built target racecar_driver_node

@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target serial[0m
+[100%] Built target serial
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/environment/library_path.sh
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/environment/library_path.dsv
+-- Symlinking: /home/davinci-mini/racecar/install/serial/lib/libserial.so
+-- Symlinking: /home/davinci-mini/racecar/install/serial/include/serial/serial.h
+-- Symlinking: /home/davinci-mini/racecar/install/serial/include/serial/v8stdint.h
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/environment/ament_prefix_path.sh
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/environment/ament_prefix_path.dsv
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/environment/path.sh
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/environment/path.dsv
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/local_setup.bash
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/local_setup.sh
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/local_setup.zsh
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/local_setup.dsv
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/package.dsv
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/ament_index/resource_index/packages/serial
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/cmake/serialConfig.cmake
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/cmake/serialConfig-version.cmake
+-- Symlinking: /home/davinci-mini/racecar/install/serial/share/serial/package.xml

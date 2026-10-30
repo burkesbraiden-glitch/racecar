@@ -1,0 +1,33 @@
+[ 25%] Built target laser_2d_new
+[ 50%] Built target scan_node
+[ 75%] Built target car_control_all
+[ 75%] Built target ament_cmake_python_symlink_racecar
+[100%] Built target my_car_control_new
+running egg_info
+writing racecar.egg-info/PKG-INFO
+writing dependency_links to racecar.egg-info/dependency_links.txt
+writing top-level names to racecar.egg-info/top_level.txt
+reading manifest file 'racecar.egg-info/SOURCES.txt'
+writing manifest file 'racecar.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_racecar_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/laser_2d_new
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/my_car_control_new
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/scan_node
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/car_control_all
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/environment/pythonpath.sh
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar/__init__.py
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar/module_to_import.py
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/racecar_teleop.py
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/get.py
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/detct.py
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/go.py
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/line_follow.py
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/line_follow2.py
+-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/zhuitong.py

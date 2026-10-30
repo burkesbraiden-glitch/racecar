@@ -1,0 +1,55 @@
+[0.108s] Invoking command in '/home/davinci-mini/racecar/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/slam_gmapping:/home/davinci-mini/racecar/install/serial:/home/davinci-mini/racecar/install/racecar_driver:/home/davinci-mini/racecar/install/racecar:/home/davinci-mini/racecar/install/openslam_gmapping:/home/davinci-mini/racecar/install/odom_tf:/home/davinci-mini/racecar/install/lslidar_driver:/home/davinci-mini/racecar/install/hipnuc_imu:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/lslidar_msgs/lib:/home/davinci-mini/racecar/install/serial/lib:/home/davinci-mini/racecar/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/davinci-mini/racecar/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/lslidar_driver
+[0.258s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[0.276s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.864s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.014s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.027s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.046s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.086s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.269s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.275s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.762s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.047s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.134s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.254s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[3.924s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.951s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.952s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.570s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.615s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.653s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.230s] -- Found Qhull version 8.0.2
+[5.836s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.411s] -- looking for PCL_COMMON
+[6.412s] -- looking for PCL_KDTREE
+[6.414s] -- looking for PCL_OCTREE
+[6.415s] -- looking for PCL_SEARCH
+[6.417s] -- looking for PCL_SAMPLE_CONSENSUS
+[6.418s] -- looking for PCL_FILTERS
+[6.420s] -- looking for PCL_2D
+[6.421s] -- looking for PCL_GEOMETRY
+[6.422s] -- looking for PCL_IO
+[6.424s] -- looking for PCL_FEATURES
+[6.426s] -- looking for PCL_ML
+[6.427s] -- looking for PCL_SEGMENTATION
+[6.429s] -- looking for PCL_VISUALIZATION
+[6.431s] -- looking for PCL_SURFACE
+[6.433s] -- looking for PCL_REGISTRATION
+[6.435s] -- looking for PCL_KEYPOINTS
+[6.436s] -- looking for PCL_TRACKING
+[6.438s] -- looking for PCL_RECOGNITION
+[6.440s] -- looking for PCL_STEREO
+[6.442s] -- looking for PCL_APPS
+[6.445s] -- looking for PCL_IN_HAND_SCANNER
+[6.446s] -- looking for PCL_MODELER
+[6.447s] -- looking for PCL_POINT_CLOUD_EDITOR
+[6.448s] -- looking for PCL_OUTOFCORE
+[6.450s] -- looking for PCL_PEOPLE
+[6.463s] -- Found diagnostic_updater: 4.0.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[6.640s] -- Found lslidar_msgs: 1.2.0 (/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[6.737s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[6.793s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[7.423s] -- Configuring done
+[7.808s] -- Generating done
+[7.859s] -- Build files have been written to: /home/davinci-mini/racecar/build/lslidar_driver

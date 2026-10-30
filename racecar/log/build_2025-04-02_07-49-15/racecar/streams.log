@@ -1,0 +1,62 @@
+[2.664s] Invoking command in '/home/davinci-mini/racecar/build/racecar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/racecar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/racecar
+[3.289s] -- The C compiler identification is GNU 11.3.0
+[3.946s] -- The CXX compiler identification is GNU 11.3.0
+[4.033s] -- Detecting C compiler ABI info
+[4.795s] -- Detecting C compiler ABI info - done
+[4.887s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.890s] -- Detecting C compile features
+[4.899s] -- Detecting C compile features - done
+[4.933s] -- Detecting CXX compiler ABI info
+[6.087s] -- Detecting CXX compiler ABI info - done
+[6.231s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.232s] -- Detecting CXX compile features
+[6.255s] -- Detecting CXX compile features - done
+[6.284s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.165s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.100s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.296s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[9.801s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.818s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.975s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.916s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.932s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.821s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.198s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.722s] -- Looking for pthread.h
+[13.616s] -- Looking for pthread.h - found
+[13.616s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.205s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.207s] -- Found Threads: TRUE  
+[14.575s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[14.589s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[14.903s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[15.151s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[15.215s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[16.245s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[16.328s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[16.367s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[16.367s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[16.418s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[16.917s] [31mCMake Error at CMakeLists.txt:28 (find_package):
+[16.918s]   By not providing "Findnav2_amcl.cmake" in CMAKE_MODULE_PATH this project
+[16.918s]   has asked CMake to find a package configuration file provided by
+[16.918s]   "nav2_amcl", but CMake did not find one.
+[16.919s] 
+[16.919s]   Could not find a package configuration file provided by "nav2_amcl" with
+[16.919s]   any of the following names:
+[16.919s] 
+[16.920s]     nav2_amclConfig.cmake
+[16.920s]     nav2_amcl-config.cmake
+[16.920s] 
+[16.920s]   Add the installation prefix of "nav2_amcl" to CMAKE_PREFIX_PATH or set
+[16.921s]   "nav2_amcl_DIR" to a directory containing one of the above files.  If
+[16.921s]   "nav2_amcl" provides a separate development package or SDK, be sure it has
+[16.921s]   been installed.
+[16.921s] 
+[16.938s] [0m
+[16.939s] -- Configuring incomplete, errors occurred!
+[16.939s] See also "/home/davinci-mini/racecar/build/racecar/CMakeFiles/CMakeOutput.log".
+[17.070s] Invoked command in '/home/davinci-mini/racecar/build/racecar' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/racecar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/racecar

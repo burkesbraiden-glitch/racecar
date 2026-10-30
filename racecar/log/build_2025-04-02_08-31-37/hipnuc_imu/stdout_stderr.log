@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 42%] Built target talker
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 71%] Built target listener
+[35m[1mConsolidate compiler generated dependencies of target imu_filter_node[0m
+[100%] Built target imu_filter_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/lib/hipnuc_imu/talker
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/lib/hipnuc_imu/listener
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/lib/hipnuc_imu/imu_filter_node
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/launch/Run_car.launch.py
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/launch/gampping.launch.py
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/launch/imu_spec_msg.launch.py
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/config/ekf_params.yaml
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/config/ekf_params1.yaml
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/config/hipnuc_config.yaml
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/ch_serial.c
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/ch_serial.h
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/imu_filter_node.cpp
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/serial_port copy.cpp
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/serial_port.cpp
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/sub_spec.cpp
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/ament_index/resource_index/package_run_dependencies/hipnuc_imu
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/ament_index/resource_index/parent_prefix_path/hipnuc_imu
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/environment/ament_prefix_path.sh
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/environment/ament_prefix_path.dsv
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/environment/path.sh
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/environment/path.dsv
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/local_setup.bash
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/local_setup.sh
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/local_setup.zsh
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/local_setup.dsv
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.dsv
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/ament_index/resource_index/packages/hipnuc_imu
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/cmake/hipnuc_imuConfig.cmake
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/cmake/hipnuc_imuConfig-version.cmake
+-- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.xml

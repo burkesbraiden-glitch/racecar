@@ -1,0 +1,8 @@
+[01m[K/home/davinci-mini/racecar/src/hipnuc_imu/src/ch_serial.c:[m[K In function ‘[01m[Kparse_data[m[K’:
+[01m[K/home/davinci-mini/racecar/src/hipnuc_imu/src/ch_serial.c:98:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   98 |     int ofs = 0, [01;35m[Ki[m[K = 0;
+      |                  [01;35m[K^[m[K
+[01m[K/home/davinci-mini/racecar/src/hipnuc_imu/src/sub_spec.cpp:[m[K In function ‘[01m[Kvoid topic_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/davinci-mini/racecar/src/hipnuc_imu/src/sub_spec.cpp:12:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   12 | void topic_callback([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr msg[m[K)
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

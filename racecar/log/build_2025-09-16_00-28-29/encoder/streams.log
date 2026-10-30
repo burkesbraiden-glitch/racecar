@@ -1,0 +1,44 @@
+[3.290s] Invoking command in '/home/davinci-mini/racecar/build/encoder': PYTHONPATH=/home/davinci-mini/racecar/build/encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/davinci-mini/racecar/build/encoder/build
+[4.500s] running develop
+[5.241s] Removing /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder.egg-link (link to .)
+[5.432s] Invoked command in '/home/davinci-mini/racecar/build/encoder' returned '0': PYTHONPATH=/home/davinci-mini/racecar/build/encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/davinci-mini/racecar/build/encoder/build
+[5.437s] Invoking command in '/home/davinci-mini/racecar/src/encoder': PYTHONPATH=/home/davinci-mini/racecar/build/encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder build --build-base /home/davinci-mini/racecar/build/encoder/build install --record /home/davinci-mini/racecar/build/encoder/install.log --single-version-externally-managed install_data --force
+[6.549s] running egg_info
+[6.552s] writing ../../build/encoder/encoder.egg-info/PKG-INFO
+[6.553s] writing dependency_links to ../../build/encoder/encoder.egg-info/dependency_links.txt
+[6.553s] writing entry points to ../../build/encoder/encoder.egg-info/entry_points.txt
+[6.554s] writing requirements to ../../build/encoder/encoder.egg-info/requires.txt
+[6.554s] writing top-level names to ../../build/encoder/encoder.egg-info/top_level.txt
+[6.563s] reading manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[6.568s] writing manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[6.569s] running build
+[6.570s] running build_py
+[6.571s] creating /home/davinci-mini/racecar/build/encoder/build
+[6.572s] creating /home/davinci-mini/racecar/build/encoder/build/lib
+[6.572s] creating /home/davinci-mini/racecar/build/encoder/build/lib/encoder
+[6.573s] copying encoder/encoder_node.py -> /home/davinci-mini/racecar/build/encoder/build/lib/encoder
+[6.574s] copying encoder/__init__.py -> /home/davinci-mini/racecar/build/encoder/build/lib/encoder
+[6.575s] copying encoder/encoder_imu.py -> /home/davinci-mini/racecar/build/encoder/build/lib/encoder
+[6.577s] copying encoder/test.py -> /home/davinci-mini/racecar/build/encoder/build/lib/encoder
+[6.579s] running install
+[6.581s] running install_lib
+[6.585s] creating /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder
+[6.586s] copying /home/davinci-mini/racecar/build/encoder/build/lib/encoder/encoder_node.py -> /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder
+[6.587s] copying /home/davinci-mini/racecar/build/encoder/build/lib/encoder/__init__.py -> /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder
+[6.587s] copying /home/davinci-mini/racecar/build/encoder/build/lib/encoder/encoder_imu.py -> /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder
+[6.587s] copying /home/davinci-mini/racecar/build/encoder/build/lib/encoder/test.py -> /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder
+[6.590s] byte-compiling /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder/encoder_node.py to encoder_node.cpython-310.pyc
+[6.593s] byte-compiling /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder/__init__.py to __init__.cpython-310.pyc
+[6.594s] byte-compiling /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder/encoder_imu.py to encoder_imu.cpython-310.pyc
+[6.610s] byte-compiling /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder/test.py to test.cpython-310.pyc
+[6.610s] running install_data
+[6.610s] copying resource/encoder -> /home/davinci-mini/racecar/install/encoder/share/ament_index/resource_index/packages
+[6.613s] copying package.xml -> /home/davinci-mini/racecar/install/encoder/share/encoder
+[6.613s] running install_egg_info
+[6.614s] Copying ../../build/encoder/encoder.egg-info to /home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages/encoder-0.0.0-py3.10.egg-info
+[6.619s] running install_scripts
+[6.731s] Installing encoder_imu_node script to /home/davinci-mini/racecar/install/encoder/lib/encoder
+[6.732s] Installing encoder_node script to /home/davinci-mini/racecar/install/encoder/lib/encoder
+[6.732s] Installing test script to /home/davinci-mini/racecar/install/encoder/lib/encoder
+[6.733s] writing list of installed files to '/home/davinci-mini/racecar/build/encoder/install.log'
+[6.875s] Invoked command in '/home/davinci-mini/racecar/src/encoder' returned '0': PYTHONPATH=/home/davinci-mini/racecar/build/encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder build --build-base /home/davinci-mini/racecar/build/encoder/build install --record /home/davinci-mini/racecar/build/encoder/install.log --single-version-externally-managed install_data --force

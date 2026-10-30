@@ -1,0 +1,17 @@
+[8.155s] Invoking command in '/home/davinci-mini/racecar/build/nav2_waypoint_cycle': PYTHONPATH=/home/davinci-mini/racecar/build/nav2_waypoint_cycle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davinci-mini/racecar/build/nav2_waypoint_cycle/build --no-deps symlink_data
+[9.661s] running develop
+[10.620s] running egg_info
+[10.620s] writing nav2_waypoint_cycle.egg-info/PKG-INFO
+[10.629s] writing dependency_links to nav2_waypoint_cycle.egg-info/dependency_links.txt
+[10.630s] writing entry points to nav2_waypoint_cycle.egg-info/entry_points.txt
+[10.630s] writing requirements to nav2_waypoint_cycle.egg-info/requires.txt
+[10.630s] writing top-level names to nav2_waypoint_cycle.egg-info/top_level.txt
+[10.633s] reading manifest file 'nav2_waypoint_cycle.egg-info/SOURCES.txt'
+[10.634s] writing manifest file 'nav2_waypoint_cycle.egg-info/SOURCES.txt'
+[10.639s] running build_ext
+[10.640s] Creating /home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/python3.10/site-packages/nav2-waypoint-cycle.egg-link (link to .)
+[10.643s] Installing nav2_waypoint_cycle script to /home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/nav2_waypoint_cycle
+[10.644s] 
+[10.644s] Installed /home/davinci-mini/racecar/build/nav2_waypoint_cycle
+[10.645s] running symlink_data
+[10.786s] Invoked command in '/home/davinci-mini/racecar/build/nav2_waypoint_cycle' returned '0': PYTHONPATH=/home/davinci-mini/racecar/build/nav2_waypoint_cycle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davinci-mini/racecar/build/nav2_waypoint_cycle/build --no-deps symlink_data

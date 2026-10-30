@@ -1,0 +1,16 @@
+1 test/images/00000012.jpg
+2 test/images/00000023.jpg
+3 test/images/00000027.jpg
+4 test/images/00000068.jpg
+5 test/images/00000080.jpg
+6 test/images/00000086.jpg
+7 test/images/00000093.jpg
+8 test/images/00000105.jpg
+9 test/images/00000108.jpg
+10 test/images/00000114.jpg
+11 test/images/00000116.jpg
+12 test/images/00000117.jpg
+13 test/images/00000122.jpg
+14 test/images/00000124.jpg
+15 test/images/00000128.jpg
+16 test/images/00000132.jpg

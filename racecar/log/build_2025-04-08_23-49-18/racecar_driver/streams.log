@@ -1,0 +1,29 @@
+[2.875s] Invoking command in '/home/davinci-mini/racecar/build/racecar_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/racecar_driver -- -j3 -l3
+[3.131s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.920s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.046s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[5.324s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.348s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.449s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.780s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.163s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.179s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.151s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.630s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[8.196s] -- Configuring done
+[8.285s] -- Generating done
+[8.305s] -- Build files have been written to: /home/davinci-mini/racecar/build/racecar_driver
+[8.408s] [35m[1mConsolidate compiler generated dependencies of target racecar_driver_node[0m
+[8.556s] [ 25%] [32mBuilding CXX object CMakeFiles/racecar_driver_node.dir/src/racecar_driver_node.cpp.o[0m
+[41.588s] [ 50%] [32m[1mLinking CXX executable racecar_driver_node[0m
+[43.443s] [ 50%] Built target racecar_driver_node
+[43.497s] [ 75%] [32mBuilding CXX object CMakeFiles/racecar_driver_node_only.dir/src/racecar_driver_node_only.cpp.o[0m
+[43.529s] [01m[K/home/davinci-mini/racecar/src/racecar_driver/src/racecar_driver_node_only.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[43.529s]     5 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[43.529s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[43.530s] compilation terminated.
+[43.533s] gmake[2]: *** [CMakeFiles/racecar_driver_node_only.dir/build.make:76: CMakeFiles/racecar_driver_node_only.dir/src/racecar_driver_node_only.cpp.o] Error 1
+[43.534s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/racecar_driver_node_only.dir/all] Error 2
+[43.534s] gmake: *** [Makefile:146: all] Error 2
+[43.540s] Invoked command in '/home/davinci-mini/racecar/build/racecar_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/racecar_driver -- -j3 -l3

@@ -1,0 +1,39 @@
+[5.083s] Invoking command in '/home/davinci-mini/racecar/build/hipnuc_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/hipnuc_imu -- -j3 -l3
+[9.926s] [ 42%] Built target talker
+[9.926s] [ 71%] Built target listener
+[9.927s] [100%] Built target imu_filter_node
+[10.065s] Invoked command in '/home/davinci-mini/racecar/build/hipnuc_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/hipnuc_imu -- -j3 -l3
+[10.077s] Invoking command in '/home/davinci-mini/racecar/build/hipnuc_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/hipnuc_imu
+[10.612s] -- Install configuration: ""
+[10.613s] -- Execute custom install script
+[10.613s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/lib/hipnuc_imu/talker
+[10.613s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/lib/hipnuc_imu/listener
+[10.614s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/lib/hipnuc_imu/imu_filter_node
+[10.614s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/launch/Run_car.launch.py
+[10.614s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/launch/gampping.launch.py
+[10.614s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/launch/imu_spec_msg.launch.py
+[10.624s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/config/ekf_params.yaml
+[10.625s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/config/ekf_params1.yaml
+[10.626s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/config/hipnuc_config.yaml
+[10.633s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/ch_serial.c
+[10.635s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/ch_serial.h
+[10.636s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/imu_filter_node.cpp
+[10.642s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/serial_port copy.cpp
+[10.644s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/serial_port.cpp
+[10.645s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/src/sub_spec.cpp
+[10.646s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/ament_index/resource_index/package_run_dependencies/hipnuc_imu
+[10.648s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/ament_index/resource_index/parent_prefix_path/hipnuc_imu
+[10.649s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/environment/ament_prefix_path.sh
+[10.650s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/environment/ament_prefix_path.dsv
+[10.651s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/environment/path.sh
+[10.651s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/environment/path.dsv
+[10.652s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/local_setup.bash
+[10.668s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/local_setup.sh
+[10.683s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/local_setup.zsh
+[10.683s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/local_setup.dsv
+[10.684s] -- Symlinking: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.dsv
+[10.689s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/ament_index/resource_index/packages/hipnuc_imu
+[10.689s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/cmake/hipnuc_imuConfig.cmake
+[10.693s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/cmake/hipnuc_imuConfig-version.cmake
+[10.693s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/hipnuc_imu/share/hipnuc_imu/package.xml
+[10.949s] Invoked command in '/home/davinci-mini/racecar/build/hipnuc_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/hipnuc_imu

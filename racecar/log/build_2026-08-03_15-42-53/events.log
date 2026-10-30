@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.000696] (-) JobUnselected: {'identifier': 'encoder'}
+[0.001000] (-) JobUnselected: {'identifier': 'hipnuc_imu'}
+[0.001106] (-) JobUnselected: {'identifier': 'lidar_tracking'}
+[0.001179] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.001236] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.001301] (-) JobUnselected: {'identifier': 'nav2_waypoint_cycle'}
+[0.001433] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.001563] (-) JobUnselected: {'identifier': 'racecar'}
+[0.001720] (-) JobUnselected: {'identifier': 'racecar_driver'}
+[0.001814] (-) JobUnselected: {'identifier': 'serial'}
+[0.001861] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.001905] (-) EventReactorShutdown: {}

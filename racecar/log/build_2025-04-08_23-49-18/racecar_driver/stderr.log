@@ -1,0 +1,7 @@
+[01m[K/home/davinci-mini/racecar/src/racecar_driver/src/racecar_driver_node_only.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    5 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/racecar_driver_node_only.dir/build.make:76: CMakeFiles/racecar_driver_node_only.dir/src/racecar_driver_node_only.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/racecar_driver_node_only.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

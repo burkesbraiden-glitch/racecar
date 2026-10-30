@@ -1,0 +1,346 @@
+[0.000000] (-) TimerEvent: {}
+[0.000923] (-) JobUnselected: {'identifier': 'encoder'}
+[0.001257] (-) JobUnselected: {'identifier': 'hipnuc_imu'}
+[0.001568] (-) JobUnselected: {'identifier': 'lidar_tracking'}
+[0.001667] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.001745] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.001825] (-) JobUnselected: {'identifier': 'nav2_waypoint_cycle'}
+[0.001965] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.002069] (-) JobUnselected: {'identifier': 'racecar_driver'}
+[0.002153] (-) JobUnselected: {'identifier': 'serial'}
+[0.002254] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.002333] (racecar) JobQueued: {'identifier': 'racecar', 'dependencies': OrderedDict()}
+[0.002412] (racecar) JobStarted: {'identifier': 'racecar'}
+[0.018530] (racecar) JobProgress: {'identifier': 'racecar', 'progress': 'cmake'}
+[0.019962] (racecar) JobProgress: {'identifier': 'racecar', 'progress': 'build'}
+[0.021591] (racecar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davinci-mini/racecar/build/racecar', '--', '-j3', '-l3'], 'cwd': '/home/davinci-mini/racecar/build/racecar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '192.168.1.146 55217 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davinci-mini/racecar/install/serial/lib:/home/davinci-mini/racecar/install/openslam_gmapping/lib:/home/davinci-mini/racecar/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/davinci-mini/racecar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/davinci-mini/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davinci-mini/racecar/install/slam_gmapping:/home/davinci-mini/racecar/install/serial:/home/davinci-mini/racecar/install/racecar_driver:/home/davinci-mini/racecar/install/racecar:/home/davinci-mini/racecar/install/openslam_gmapping:/home/davinci-mini/racecar/install/odom_tf:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/lslidar_driver:/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/lidar_tracking:/home/davinci-mini/racecar/install/hipnuc_imu:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/racecar'), ('SSH_CONNECTION', '192.168.1.146 55217 192.168.1.189 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages:/home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/python3.10/site-packages:/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davinci-mini/racecar/install/slam_gmapping:/home/davinci-mini/racecar/install/serial:/home/davinci-mini/racecar/install/racecar_driver:/home/davinci-mini/racecar/install/racecar:/home/davinci-mini/racecar/install/openslam_gmapping:/home/davinci-mini/racecar/install/odom_tf:/home/davinci-mini/racecar/install/lslidar_driver:/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/lidar_tracking:/home/davinci-mini/racecar/install/hipnuc_imu:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble')]), 'shell': False}
+[0.099366] (-) TimerEvent: {}
+[0.126739] (racecar) StdoutLine: {'line': b'[ 25%] Built target laser_2d_new\n'}
+[0.151164] (racecar) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target scan_node\x1b[0m\n'}
+[0.183324] (racecar) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/scan_node.dir/src/scan_node.cpp.o\x1b[0m\n'}
+[0.199506] (-) TimerEvent: {}
+[0.300014] (-) TimerEvent: {}
+[0.400506] (-) TimerEvent: {}
+[0.501083] (-) TimerEvent: {}
+[0.601570] (-) TimerEvent: {}
+[0.702069] (-) TimerEvent: {}
+[0.802541] (-) TimerEvent: {}
+[0.903049] (-) TimerEvent: {}
+[1.003553] (-) TimerEvent: {}
+[1.104061] (-) TimerEvent: {}
+[1.204575] (-) TimerEvent: {}
+[1.305074] (-) TimerEvent: {}
+[1.405576] (-) TimerEvent: {}
+[1.506072] (-) TimerEvent: {}
+[1.606569] (-) TimerEvent: {}
+[1.707069] (-) TimerEvent: {}
+[1.807568] (-) TimerEvent: {}
+[1.908259] (-) TimerEvent: {}
+[2.008802] (-) TimerEvent: {}
+[2.109335] (-) TimerEvent: {}
+[2.209837] (-) TimerEvent: {}
+[2.310333] (-) TimerEvent: {}
+[2.410834] (-) TimerEvent: {}
+[2.511335] (-) TimerEvent: {}
+[2.611838] (-) TimerEvent: {}
+[2.712337] (-) TimerEvent: {}
+[2.812845] (-) TimerEvent: {}
+[2.913393] (-) TimerEvent: {}
+[3.013890] (-) TimerEvent: {}
+[3.114385] (-) TimerEvent: {}
+[3.214881] (-) TimerEvent: {}
+[3.315385] (-) TimerEvent: {}
+[3.415889] (-) TimerEvent: {}
+[3.516401] (-) TimerEvent: {}
+[3.616919] (-) TimerEvent: {}
+[3.717419] (-) TimerEvent: {}
+[3.817922] (-) TimerEvent: {}
+[3.918422] (-) TimerEvent: {}
+[4.018931] (-) TimerEvent: {}
+[4.119431] (-) TimerEvent: {}
+[4.219933] (-) TimerEvent: {}
+[4.320409] (-) TimerEvent: {}
+[4.420959] (-) TimerEvent: {}
+[4.521465] (-) TimerEvent: {}
+[4.621969] (-) TimerEvent: {}
+[4.722475] (-) TimerEvent: {}
+[4.822986] (-) TimerEvent: {}
+[4.923501] (-) TimerEvent: {}
+[5.024031] (-) TimerEvent: {}
+[5.124545] (-) TimerEvent: {}
+[5.225129] (-) TimerEvent: {}
+[5.325642] (-) TimerEvent: {}
+[5.426181] (-) TimerEvent: {}
+[5.526683] (-) TimerEvent: {}
+[5.627189] (-) TimerEvent: {}
+[5.727690] (-) TimerEvent: {}
+[5.828193] (-) TimerEvent: {}
+[5.928711] (-) TimerEvent: {}
+[6.029213] (-) TimerEvent: {}
+[6.129723] (-) TimerEvent: {}
+[6.230234] (-) TimerEvent: {}
+[6.330731] (-) TimerEvent: {}
+[6.431234] (-) TimerEvent: {}
+[6.531729] (-) TimerEvent: {}
+[6.632230] (-) TimerEvent: {}
+[6.732803] (-) TimerEvent: {}
+[6.833300] (-) TimerEvent: {}
+[6.933801] (-) TimerEvent: {}
+[7.034351] (-) TimerEvent: {}
+[7.134852] (-) TimerEvent: {}
+[7.235362] (-) TimerEvent: {}
+[7.335864] (-) TimerEvent: {}
+[7.436356] (-) TimerEvent: {}
+[7.536933] (-) TimerEvent: {}
+[7.637433] (-) TimerEvent: {}
+[7.737931] (-) TimerEvent: {}
+[7.838448] (-) TimerEvent: {}
+[7.938987] (-) TimerEvent: {}
+[8.039611] (-) TimerEvent: {}
+[8.140121] (-) TimerEvent: {}
+[8.240687] (-) TimerEvent: {}
+[8.341188] (-) TimerEvent: {}
+[8.441695] (-) TimerEvent: {}
+[8.542205] (-) TimerEvent: {}
+[8.642707] (-) TimerEvent: {}
+[8.743207] (-) TimerEvent: {}
+[8.843733] (-) TimerEvent: {}
+[8.944277] (-) TimerEvent: {}
+[9.044960] (-) TimerEvent: {}
+[9.145473] (-) TimerEvent: {}
+[9.245989] (-) TimerEvent: {}
+[9.346502] (-) TimerEvent: {}
+[9.447022] (-) TimerEvent: {}
+[9.547534] (-) TimerEvent: {}
+[9.648036] (-) TimerEvent: {}
+[9.748541] (-) TimerEvent: {}
+[9.849067] (-) TimerEvent: {}
+[9.949568] (-) TimerEvent: {}
+[10.050077] (-) TimerEvent: {}
+[10.150578] (-) TimerEvent: {}
+[10.251085] (-) TimerEvent: {}
+[10.351591] (-) TimerEvent: {}
+[10.452098] (-) TimerEvent: {}
+[10.552598] (-) TimerEvent: {}
+[10.653095] (-) TimerEvent: {}
+[10.753595] (-) TimerEvent: {}
+[10.854093] (-) TimerEvent: {}
+[10.954600] (-) TimerEvent: {}
+[11.055104] (-) TimerEvent: {}
+[11.155601] (-) TimerEvent: {}
+[11.256097] (-) TimerEvent: {}
+[11.356597] (-) TimerEvent: {}
+[11.457094] (-) TimerEvent: {}
+[11.557594] (-) TimerEvent: {}
+[11.658096] (-) TimerEvent: {}
+[11.758595] (-) TimerEvent: {}
+[11.859101] (-) TimerEvent: {}
+[11.959603] (-) TimerEvent: {}
+[12.060104] (-) TimerEvent: {}
+[12.160631] (-) TimerEvent: {}
+[12.261121] (-) TimerEvent: {}
+[12.361612] (-) TimerEvent: {}
+[12.462109] (-) TimerEvent: {}
+[12.562643] (-) TimerEvent: {}
+[12.663144] (-) TimerEvent: {}
+[12.763663] (-) TimerEvent: {}
+[12.864184] (-) TimerEvent: {}
+[12.965127] (-) TimerEvent: {}
+[13.065642] (-) TimerEvent: {}
+[13.166163] (-) TimerEvent: {}
+[13.266703] (-) TimerEvent: {}
+[13.367227] (-) TimerEvent: {}
+[13.467761] (-) TimerEvent: {}
+[13.568259] (-) TimerEvent: {}
+[13.668853] (-) TimerEvent: {}
+[13.769371] (-) TimerEvent: {}
+[13.869901] (-) TimerEvent: {}
+[13.970388] (-) TimerEvent: {}
+[14.070877] (-) TimerEvent: {}
+[14.171362] (-) TimerEvent: {}
+[14.271845] (-) TimerEvent: {}
+[14.372334] (-) TimerEvent: {}
+[14.472878] (-) TimerEvent: {}
+[14.573379] (-) TimerEvent: {}
+[14.673865] (-) TimerEvent: {}
+[14.774341] (-) TimerEvent: {}
+[14.874827] (-) TimerEvent: {}
+[14.975315] (-) TimerEvent: {}
+[15.075798] (-) TimerEvent: {}
+[15.176286] (-) TimerEvent: {}
+[15.276775] (-) TimerEvent: {}
+[15.377258] (-) TimerEvent: {}
+[15.477734] (-) TimerEvent: {}
+[15.578213] (-) TimerEvent: {}
+[15.678691] (-) TimerEvent: {}
+[15.779169] (-) TimerEvent: {}
+[15.879640] (-) TimerEvent: {}
+[15.980112] (-) TimerEvent: {}
+[16.080604] (-) TimerEvent: {}
+[16.181079] (-) TimerEvent: {}
+[16.281550] (-) TimerEvent: {}
+[16.382028] (-) TimerEvent: {}
+[16.482498] (-) TimerEvent: {}
+[16.582978] (-) TimerEvent: {}
+[16.683472] (-) TimerEvent: {}
+[16.783970] (-) TimerEvent: {}
+[16.884593] (-) TimerEvent: {}
+[16.985082] (-) TimerEvent: {}
+[17.085527] (-) TimerEvent: {}
+[17.186011] (-) TimerEvent: {}
+[17.286496] (-) TimerEvent: {}
+[17.386981] (-) TimerEvent: {}
+[17.487468] (-) TimerEvent: {}
+[17.587967] (-) TimerEvent: {}
+[17.688465] (-) TimerEvent: {}
+[17.789049] (-) TimerEvent: {}
+[17.889559] (-) TimerEvent: {}
+[17.990050] (-) TimerEvent: {}
+[18.090538] (-) TimerEvent: {}
+[18.190999] (-) TimerEvent: {}
+[18.291483] (-) TimerEvent: {}
+[18.391967] (-) TimerEvent: {}
+[18.492444] (-) TimerEvent: {}
+[18.592955] (-) TimerEvent: {}
+[18.693431] (-) TimerEvent: {}
+[18.793908] (-) TimerEvent: {}
+[18.894387] (-) TimerEvent: {}
+[18.994866] (-) TimerEvent: {}
+[19.095354] (-) TimerEvent: {}
+[19.195834] (-) TimerEvent: {}
+[19.296322] (-) TimerEvent: {}
+[19.396827] (-) TimerEvent: {}
+[19.497304] (-) TimerEvent: {}
+[19.597784] (-) TimerEvent: {}
+[19.698264] (-) TimerEvent: {}
+[19.798741] (-) TimerEvent: {}
+[19.899223] (-) TimerEvent: {}
+[19.999710] (-) TimerEvent: {}
+[20.100178] (-) TimerEvent: {}
+[20.200674] (-) TimerEvent: {}
+[20.301160] (-) TimerEvent: {}
+[20.401687] (-) TimerEvent: {}
+[20.502134] (-) TimerEvent: {}
+[20.602600] (-) TimerEvent: {}
+[20.703110] (-) TimerEvent: {}
+[20.803602] (-) TimerEvent: {}
+[20.904080] (-) TimerEvent: {}
+[21.004636] (-) TimerEvent: {}
+[21.105291] (-) TimerEvent: {}
+[21.205792] (-) TimerEvent: {}
+[21.306283] (-) TimerEvent: {}
+[21.406757] (-) TimerEvent: {}
+[21.507219] (-) TimerEvent: {}
+[21.607685] (-) TimerEvent: {}
+[21.708158] (-) TimerEvent: {}
+[21.808764] (-) TimerEvent: {}
+[21.909240] (-) TimerEvent: {}
+[22.009754] (-) TimerEvent: {}
+[22.110257] (-) TimerEvent: {}
+[22.210751] (-) TimerEvent: {}
+[22.311232] (-) TimerEvent: {}
+[22.411730] (-) TimerEvent: {}
+[22.430126] (racecar) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable scan_node\x1b[0m\n'}
+[22.511868] (-) TimerEvent: {}
+[22.612384] (-) TimerEvent: {}
+[22.713053] (-) TimerEvent: {}
+[22.813603] (-) TimerEvent: {}
+[22.914129] (-) TimerEvent: {}
+[23.014717] (-) TimerEvent: {}
+[23.115246] (-) TimerEvent: {}
+[23.215775] (-) TimerEvent: {}
+[23.316300] (-) TimerEvent: {}
+[23.416994] (-) TimerEvent: {}
+[23.517519] (-) TimerEvent: {}
+[23.618024] (-) TimerEvent: {}
+[23.718555] (-) TimerEvent: {}
+[23.819094] (-) TimerEvent: {}
+[23.919625] (-) TimerEvent: {}
+[24.020138] (-) TimerEvent: {}
+[24.120632] (-) TimerEvent: {}
+[24.127973] (racecar) StdoutLine: {'line': b'[ 50%] Built target scan_node\n'}
+[24.176839] (racecar) StdoutLine: {'line': b'[ 75%] Built target car_control_all\n'}
+[24.220822] (-) TimerEvent: {}
+[24.222613] (racecar) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_symlink_racecar\n'}
+[24.273178] (racecar) StdoutLine: {'line': b'[100%] Built target my_car_control_new\n'}
+[24.320940] (-) TimerEvent: {}
+[24.421402] (-) TimerEvent: {}
+[24.521866] (-) TimerEvent: {}
+[24.622351] (-) TimerEvent: {}
+[24.722809] (-) TimerEvent: {}
+[24.823257] (-) TimerEvent: {}
+[24.923720] (-) TimerEvent: {}
+[24.930998] (racecar) StdoutLine: {'line': b'running egg_info\n'}
+[24.932928] (racecar) StdoutLine: {'line': b'writing racecar.egg-info/PKG-INFO\n'}
+[24.933424] (racecar) StdoutLine: {'line': b'writing dependency_links to racecar.egg-info/dependency_links.txt\n'}
+[24.933786] (racecar) StdoutLine: {'line': b'writing top-level names to racecar.egg-info/top_level.txt\n'}
+[24.939288] (racecar) StdoutLine: {'line': b"reading manifest file 'racecar.egg-info/SOURCES.txt'\n"}
+[24.940534] (racecar) StdoutLine: {'line': b"writing manifest file 'racecar.egg-info/SOURCES.txt'\n"}
+[25.018594] (racecar) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_racecar_egg\n'}
+[25.023850] (-) TimerEvent: {}
+[25.039253] (racecar) CommandEnded: {'returncode': 0}
+[25.040480] (racecar) JobProgress: {'identifier': 'racecar', 'progress': 'install'}
+[25.056052] (racecar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/davinci-mini/racecar/build/racecar'], 'cwd': '/home/davinci-mini/racecar/build/racecar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davinci-mini'), ('SSH_CLIENT', '192.168.1.146 55217 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davinci-mini/racecar/install/serial/lib:/home/davinci-mini/racecar/install/openslam_gmapping/lib:/home/davinci-mini/racecar/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/davinci-mini'), ('OLDPWD', '/home/davinci-mini'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/davinci-mini/racecar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davinci-mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/davinci-mini/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davinci-mini/racecar/install/slam_gmapping:/home/davinci-mini/racecar/install/serial:/home/davinci-mini/racecar/install/racecar_driver:/home/davinci-mini/racecar/install/racecar:/home/davinci-mini/racecar/install/openslam_gmapping:/home/davinci-mini/racecar/install/odom_tf:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/lslidar_driver:/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/lidar_tracking:/home/davinci-mini/racecar/install/hipnuc_imu:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/davinci-mini/racecar/build/racecar'), ('SSH_CONNECTION', '192.168.1.146 55217 192.168.1.189 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages:/home/davinci-mini/racecar/install/nav2_waypoint_cycle/lib/python3.10/site-packages:/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/davinci-mini/racecar/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davinci-mini/racecar/install/slam_gmapping:/home/davinci-mini/racecar/install/serial:/home/davinci-mini/racecar/install/racecar_driver:/home/davinci-mini/racecar/install/racecar:/home/davinci-mini/racecar/install/openslam_gmapping:/home/davinci-mini/racecar/install/odom_tf:/home/davinci-mini/racecar/install/lslidar_driver:/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/lidar_tracking:/home/davinci-mini/racecar/install/hipnuc_imu:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble')]), 'shell': False}
+[25.070165] (racecar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.071152] (racecar) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.071739] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/laser_2d_new\n'}
+[25.072041] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/my_car_control_new\n'}
+[25.072330] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/scan_node\n'}
+[25.072756] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/car_control_all\n'}
+[25.073094] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/environment/pythonpath.sh\n'}
+[25.073387] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/environment/pythonpath.dsv\n'}
+[25.074037] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[25.074281] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[25.074482] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[25.074677] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[25.075283] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar/__init__.py\n'}
+[25.075479] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar/module_to_import.py\n'}
+[25.075770] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/racecar_teleop.py\n'}
+[25.076043] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/get.py\n'}
+[25.076315] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/detct.py\n'}
+[25.076603] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/go.py\n'}
+[25.077026] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/line_follow.py\n'}
+[25.077327] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/line_follow2.py\n'}
+[25.077570] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/lib/racecar/zhuitong.py\n'}
+[25.078266] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/config/camera/camera_info.yaml\n'}
+[25.078492] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/config/camera/params_1.yaml\n'}
+[25.078686] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/config/camera/params_2.yaml\n'}
+[25.078877] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/config/ekf.yaml\n'}
+[25.079065] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/config/ekf_carto.yaml\n'}
+[25.079249] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/config/laser_box/x4_laser_filter.yaml\n'}
+[25.079581] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/config/nav.yaml\n'}
+[25.079864] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/config/nav1\xe6\x9c\x89\xe9\x97\xae\xe9\xa2\x98.yaml\n'}
+[25.080075] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/config/nav2\xe5\x8e\x9f\xe6\x9c\xac.yaml\n'}
+[25.080272] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/config/nav3\xe6\x9c\x80\xe6\x96\xb0.yaml\n'}
+[25.080457] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/config/nav\xe5\xa2\x9e\xe5\x8a\xa0v.yaml\n'}
+[25.080932] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/maps/ceshi1.pgm\n'}
+[25.081156] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/maps/ceshi1.yaml\n'}
+[25.081756] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/launch/Run_car.launch.py\n'}
+[25.081961] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/launch/Run_car_one.launch.py\n'}
+[25.082159] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/launch/Run_nav.launch.py\n'}
+[25.082374] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/launch/bringup_launch.py\n'}
+[25.082575] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/launch/camer.launch.py\n'}
+[25.082773] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/launch/camer.launch.py.bk\n'}
+[25.082972] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/launch/ekf.launch.py\n'}
+[25.083159] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/launch/xunxian.launch.py\n'}
+[25.083355] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/ament_index/resource_index/package_run_dependencies/racecar\n'}
+[25.083644] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/ament_index/resource_index/parent_prefix_path/racecar\n'}
+[25.083956] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/environment/ament_prefix_path.sh\n'}
+[25.084223] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/environment/ament_prefix_path.dsv\n'}
+[25.084507] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/environment/path.sh\n'}
+[25.084883] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/environment/path.dsv\n'}
+[25.085169] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/local_setup.bash\n'}
+[25.085443] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/local_setup.sh\n'}
+[25.085713] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/local_setup.zsh\n'}
+[25.086001] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/local_setup.dsv\n'}
+[25.086224] (racecar) StdoutLine: {'line': b'-- Symlinking: /home/davinci-mini/racecar/install/racecar/share/racecar/package.dsv\n'}
+[25.101095] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/ament_index/resource_index/packages/racecar\n'}
+[25.101503] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/cmake/racecarConfig.cmake\n'}
+[25.101716] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/cmake/racecarConfig-version.cmake\n'}
+[25.101917] (racecar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davinci-mini/racecar/install/racecar/share/racecar/package.xml\n'}
+[25.123966] (-) TimerEvent: {}
+[25.174001] (racecar) StdoutLine: {'line': b"Listing '/home/davinci-mini/racecar/install/racecar/local/lib/python3.10/dist-packages/racecar'...\n"}
+[25.190308] (racecar) CommandEnded: {'returncode': 0}
+[25.224650] (-) TimerEvent: {}
+[25.230343] (racecar) JobEnded: {'identifier': 'racecar', 'rc': 0}
+[25.231674] (-) EventReactorShutdown: {}

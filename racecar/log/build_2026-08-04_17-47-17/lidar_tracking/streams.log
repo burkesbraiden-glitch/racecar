@@ -1,0 +1,30 @@
+[0.034s] Invoking command in '/home/davinci-mini/racecar/build/lidar_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/lidar_tracking -- -j3 -l3
+[0.151s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_tracking.dir/src/lidar_tracking.cpp.o[0m
+[22.238s] [100%] [32m[1mLinking CXX executable lidar_tracking[0m
+[23.401s] [100%] Built target lidar_tracking
+[23.420s] Invoked command in '/home/davinci-mini/racecar/build/lidar_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/lidar_tracking -- -j3 -l3
+[23.425s] Invoking command in '/home/davinci-mini/racecar/build/lidar_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/lidar_tracking
+[23.439s] -- Install configuration: ""
+[23.441s] -- Installing: /home/davinci-mini/racecar/install/lidar_tracking/lib/lidar_tracking/lidar_tracking
+[23.449s] -- Set runtime path of "/home/davinci-mini/racecar/install/lidar_tracking/lib/lidar_tracking/lidar_tracking" to ""
+[23.449s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/launch
+[23.450s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/launch/lidar_tracking.launch.py
+[23.450s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/config
+[23.458s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/config/params有问题.yaml
+[23.458s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/config/params.yaml
+[23.458s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/ament_index/resource_index/package_run_dependencies/lidar_tracking
+[23.461s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/ament_index/resource_index/parent_prefix_path/lidar_tracking
+[23.462s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/environment/ament_prefix_path.sh
+[23.462s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/environment/ament_prefix_path.dsv
+[23.462s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/environment/path.sh
+[23.462s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/environment/path.dsv
+[23.463s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/local_setup.bash
+[23.463s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/local_setup.sh
+[23.463s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/local_setup.zsh
+[23.463s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/local_setup.dsv
+[23.463s] -- Installing: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/package.dsv
+[23.464s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/ament_index/resource_index/packages/lidar_tracking
+[23.464s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/cmake/lidar_trackingConfig.cmake
+[23.464s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/cmake/lidar_trackingConfig-version.cmake
+[23.464s] -- Up-to-date: /home/davinci-mini/racecar/install/lidar_tracking/share/lidar_tracking/package.xml
+[23.468s] Invoked command in '/home/davinci-mini/racecar/build/lidar_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/lidar_tracking

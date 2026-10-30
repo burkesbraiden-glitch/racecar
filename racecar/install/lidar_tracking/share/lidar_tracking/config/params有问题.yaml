@@ -1,0 +1,26 @@
+/**:
+  ros__parameters:
+    topic: "teleop_cmd_vel"
+
+    # PID（过冲左右摆时：先降 kp；仍抖再略降 kd；反应太慢再小幅加回 kp）
+    speed: 1590
+    kp: 0.70
+    ki: 0.0
+    kd: 0.85
+
+    # 路径规划权重（降低近/中距离权重，减轻猛打方向）
+    rate1: 0.70
+    rate2: 1.20
+    rate3: 1.00
+
+    # 扇形检测
+    no_cone_detection_range: 1.30
+    no_cone_sector_angle: 84.0
+
+    # 正常循迹范围
+    max_right_dis: 1.5
+    max_left_dis: 1.5
+
+    # 无锥桶巡航
+    no_cone_speed: 1530
+    no_cone_turn_angle: 105.0

@@ -1,0 +1,68 @@
+[0.239s] Invoking command in '/home/davinci-mini/racecar/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/openslam_gmapping -- -j3 -l3
+[3.151s] [ 13%] Built target utils
+[3.151s] [ 27%] Built target sensor_base
+[3.151s] [ 40%] Built target sensor_range
+[3.152s] [ 54%] Built target sensor_odometry
+[3.152s] [ 77%] Built target scanmatcher
+[3.152s] [100%] Built target gridfastslam
+[3.272s] Invoked command in '/home/davinci-mini/racecar/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/openslam_gmapping -- -j3 -l3
+[3.304s] Invoking command in '/home/davinci-mini/racecar/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/openslam_gmapping
+[3.642s] -- Install configuration: ""
+[3.642s] -- Execute custom install script
+[3.643s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/lib/libgridfastslam.a
+[3.643s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/lib/libscanmatcher.a
+[3.643s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/lib/libsensor_base.a
+[3.643s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.644s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.644s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.644s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.644s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/lib/libsensor_odometry.a
+[3.645s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/lib/libsensor_range.a
+[3.645s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/lib/libutils.a
+[3.645s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.645s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.646s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.646s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.646s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[3.646s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[3.647s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[3.647s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/grid/map.h
+[3.647s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[3.647s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[3.648s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[3.648s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/log/configuration.h
+[3.648s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[3.648s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[3.649s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[3.649s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[3.649s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[3.675s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[3.676s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[3.677s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[3.678s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[3.679s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[3.694s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[3.696s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[3.696s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[3.697s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[3.699s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[3.701s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/utils/point.h
+[3.705s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/include//gmapping/utils/stat.h
+[3.706s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[3.714s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[3.715s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[3.715s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[3.715s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[3.716s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[3.716s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[3.716s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[3.716s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[3.717s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[3.717s] -- Symlinking: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[3.717s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[3.718s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[3.718s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.718s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[3.718s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[3.719s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[3.931s] Invoked command in '/home/davinci-mini/racecar/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/openslam_gmapping

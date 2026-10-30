@@ -1,0 +1,13 @@
+[2.664s] Invoking command in '/home/davinci-mini/racecar/build/racecar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/racecar -- -j3 -l3
+[3.327s] [ 25%] Built target laser_2d_new
+[3.575s] [ 50%] Built target scan_node
+[4.041s] [ 75%] Built target car_control_all
+[4.285s] [ 75%] Built target ament_cmake_python_symlink_racecar
+[4.628s] [100%] Built target my_car_control_new
+[6.872s] running egg_info
+[6.875s] writing racecar.egg-info/PKG-INFO
+[6.877s] writing dependency_links to racecar.egg-info/dependency_links.txt
+[6.879s] writing top-level names to racecar.egg-info/top_level.txt
+[6.889s] reading manifest file 'racecar.egg-info/SOURCES.txt'
+[6.892s] writing manifest file 'racecar.egg-info/SOURCES.txt'
+[7.012s] [100%] Built target ament_cmake_python_build_racecar_egg

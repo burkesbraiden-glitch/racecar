@@ -1,0 +1,188 @@
+[0.153s] Invoking command in '/home/davinci-mini/racecar/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/lslidar_msgs -- -j3 -l3
+[2.741s] [  1%] Built target lslidar_msgs__cpp
+[2.742s] [  1%] Built target ament_cmake_python_symlink_lslidar_msgs
+[2.742s] [ 12%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[2.743s] [ 23%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[2.743s] [ 34%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[2.743s] running egg_info
+[2.743s] writing lslidar_msgs.egg-info/PKG-INFO
+[2.744s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[2.745s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[2.745s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[2.745s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[2.745s] [ 34%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[2.746s] [ 46%] Built target lslidar_msgs__rosidl_generator_c
+[2.746s] [ 57%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[2.746s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_c
+[2.747s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[2.747s] [ 79%] Built target lslidar_msgs
+[2.747s] [ 80%] Built target lslidar_msgs__py
+[2.747s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[2.748s] [ 93%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.748s] [ 96%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[2.748s] [100%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[2.861s] Invoked command in '/home/davinci-mini/racecar/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/lslidar_msgs -- -j3 -l3
+[2.862s] Invoking command in '/home/davinci-mini/racecar/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/lslidar_msgs
+[3.163s] -- Install configuration: ""
+[3.163s] -- Execute custom install script
+[3.168s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[3.168s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h
+[3.169s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h
+[3.188s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h
+[3.188s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[3.189s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[3.189s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[3.189s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[3.190s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[3.190s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[3.190s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[3.191s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[3.191s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[3.191s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h
+[3.191s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h
+[3.192s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h
+[3.210s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h
+[3.210s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[3.211s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[3.211s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[3.211s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h
+[3.211s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.216s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[3.217s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[3.217s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h
+[3.217s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[3.217s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[3.218s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[3.218s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h
+[3.218s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.219s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp
+[3.219s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp
+[3.219s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp
+[3.219s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp
+[3.220s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[3.257s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[3.259s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[3.259s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp
+[3.259s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[3.260s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[3.260s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[3.260s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp
+[3.261s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[3.261s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[3.261s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[3.261s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp
+[3.262s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp
+[3.262s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp
+[3.262s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp
+[3.263s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp
+[3.263s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp
+[3.263s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[3.263s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[3.268s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[3.269s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp
+[3.269s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.270s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp
+[3.270s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[3.270s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.270s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[3.271s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp
+[3.271s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.271s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h
+[3.271s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[3.272s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[3.292s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[3.293s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h
+[3.293s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.293s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp
+[3.294s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[3.294s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[3.294s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[3.294s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp
+[3.295s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[3.295s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[3.295s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[3.295s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[3.296s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[3.296s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[3.296s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[3.309s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[3.309s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.309s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.310s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[3.310s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.310s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.311s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.311s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[3.311s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py
+[3.311s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c
+[3.312s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[3.328s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[3.333s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[3.333s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[3.334s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[3.334s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[3.334s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py
+[3.334s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c
+[3.335s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.335s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.335s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.335s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl
+[3.336s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[3.336s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[3.336s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[3.346s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl
+[3.347s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg
+[3.347s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[3.347s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[3.348s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[3.361s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg
+[3.364s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[3.365s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[3.365s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[3.365s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[3.366s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[3.366s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[3.369s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[3.369s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[3.370s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[3.370s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[3.370s] -- Symlinking: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[3.372s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[3.381s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[3.381s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.382s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.382s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.382s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.382s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.383s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.383s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[3.383s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[3.383s] -- Up-to-date symlink: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[3.384s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[3.409s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[3.410s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.410s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[3.410s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[3.411s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[3.411s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[3.446s] Listing '/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[3.446s] Listing '/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[3.489s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[3.490s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[3.490s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.490s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.491s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.491s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[3.491s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.491s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.492s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.493s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.493s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[3.494s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.494s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.494s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.494s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[3.495s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.495s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[3.495s] -- Up-to-date: /home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.963s] Invoked command in '/home/davinci-mini/racecar/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/nav2_waypoint_cycle:/home/davinci-mini/racecar/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/lslidar_msgs
