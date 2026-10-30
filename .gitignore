@@ -1,0 +1,75 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# =========================
+# ROS / colcon
+# =========================
+build/
+install/
+log/
+
+# Nested ROS build directories
+**/build/
+**/install/
+**/log/
+
+# =========================
+# CMake
+# =========================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary / backup files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.bk
+*~
+
+# =========================
+# Runtime logs
+# =========================
+*.log
+
+# =========================
+# Generated media / test output
+# =========================
+output_*.mp4
+output_*.jpg
+output_*.png
+
+# =========================
+# Secrets / environment
+# =========================
+.env
+.env.*
+*.key
+*.pem
