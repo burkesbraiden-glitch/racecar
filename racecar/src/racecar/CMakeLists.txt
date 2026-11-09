@@ -114,6 +114,10 @@ install(PROGRAMS
     scripts/second_lap_manager.py 
     DESTINATION lib/${PROJECT_NAME}
 )
+install(PROGRAMS
+    scripts/race_mission_manager.py
+    DESTINATION lib/${PROJECT_NAME}
+)
 install(DIRECTORY
   config
   DESTINATION share/${PROJECT_NAME}
