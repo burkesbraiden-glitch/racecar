@@ -216,6 +216,7 @@ def generate_launch_description():
                 closed_loop_distance, value_type=float),
             'maximum_route_point_gap': ParameterValue(
                 maximum_route_point_gap, value_type=float),
+            'output_command_topic': '/mission/second_lap_cmd',
         }],
         # The manager owns localization initialization and the final command
         # arbitration.  Keeping Nav2 and the driver alive after it fails only
@@ -223,10 +224,27 @@ def generate_launch_description():
         on_exit=Shutdown(reason='second_lap_manager exited'),
     )
 
+    mission_manager = Node(
+        package='racecar',
+        executable='race_mission_manager.py',
+        name='race_mission_manager',
+        output='screen',
+        parameters=[{
+            'initial_phase': 'SECOND_LAP',
+            'first_lap_source_topic': '/mission/first_lap_cmd',
+            'second_lap_source_topic': '/mission/second_lap_cmd',
+            'parking_source_topic': '/mission/parking_cmd',
+            'raw_output_topic': '/teleop_cmd_vel',
+            'metric_output_topic': '/car_cmd_vel',
+            'allow_external_phase_request': False,
+            'command_timeout': 0.5,
+        }])
+
     detector = OpaqueFunction(
         function=launch_ab_detector,
         args=[ab_script, ab_visible],
         condition=IfCondition(start_ab_detector),
     )
 
-    return LaunchDescription(arguments + [base, nav2, manager, detector])
+    return LaunchDescription(
+        arguments + [base, nav2, mission_manager, manager, detector])
