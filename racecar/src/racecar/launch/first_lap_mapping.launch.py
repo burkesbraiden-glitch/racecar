@@ -135,7 +135,7 @@ def generate_launch_description():
         output='screen',
         parameters=[{
             'source_topic': tracking_topic,
-            'output_topic': '/teleop_cmd_vel',
+            'output_topic': '/mission/first_lap_cmd',
             # Explicit types prevent Humble from interpreting command-line
             # values such as "20" and "12" as INTEGER parameters.
             'lap_duration': ParameterValue(lap_duration, value_type=float),
@@ -153,4 +153,21 @@ def generate_launch_description():
             'save_timeout': ParameterValue(save_timeout, value_type=float),
         }])
 
-    return LaunchDescription(arguments + [base, gmapping, supervisor, delayed_tracker])
+    mission_manager = Node(
+        package='racecar',
+        executable='race_mission_manager.py',
+        name='race_mission_manager',
+        output='screen',
+        parameters=[{
+            'initial_phase': 'FIRST_LAP',
+            'first_lap_source_topic': '/mission/first_lap_cmd',
+            'second_lap_source_topic': '/mission/second_lap_cmd',
+            'parking_source_topic': '/mission/parking_cmd',
+            'raw_output_topic': '/teleop_cmd_vel',
+            'metric_output_topic': '/car_cmd_vel',
+            'allow_external_phase_request': False,
+            'command_timeout': 0.5,
+        }])
+
+    return LaunchDescription(
+        arguments + [base, gmapping, mission_manager, supervisor, delayed_tracker])
